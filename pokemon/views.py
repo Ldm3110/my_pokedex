@@ -23,7 +23,8 @@ from .serializers import PokemonSerializer
     retrieve=extend_schema(
         description="API endpoint to retrieve a specific pokemon, which gives on him detailed informations"
     ),
-    update=extend_schema(description="API endpoint to modify a specific pokemon"),
+    update=extend_schema(
+        description="API endpoint to modify a specific pokemon"),
     partial_update=extend_schema(
         description="API endpoint to partially modify a specific pokemon\n\nAll fields are optionnal"
     ),
@@ -33,9 +34,13 @@ from .serializers import PokemonSerializer
 )
 class PokemonViewSet(ModelViewSet):
     permission_classes = (IsAuthenticated,)
-    queryset = Pokemon.objects.all().order_by("pokedex_creature__ref_number")
     serializer_class = PokemonSerializer
     filterset_class = PokemonFilter
+
+    def get_queryset(self):
+        return Pokemon.objects.filter(
+            trainer=self.request.user
+        ).order_by("pokedex_creature__ref_number")
 
     def get_serializer_class(self):
         if self.action == "retrieve":
