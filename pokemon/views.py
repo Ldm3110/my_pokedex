@@ -1,16 +1,20 @@
 from drf_spectacular.utils import extend_schema
 from drf_spectacular.utils import extend_schema_view
 from rest_framework import status
+from rest_framework import filters
 from rest_framework.decorators import action
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.viewsets import ModelViewSet
+from rest_framework.viewsets import ReadOnlyModelViewSet
 
 from .filters import PokemonFilter
 from .models import Pokemon
+from .models import FavObject
 from .serializers import PokemonDetailsSerializer
 from .serializers import PokemonGiveXPSerializer
 from .serializers import PokemonSerializer
+from .serializers import FavoriteObjectSerializer
 
 
 @extend_schema_view(
@@ -64,3 +68,19 @@ class PokemonViewSet(ModelViewSet):
 
         response_serializer = PokemonSerializer(instance=pokemon)
         return Response(response_serializer.data, status=status.HTTP_200_OK)
+
+
+@extend_schema_view(
+    list=extend_schema(
+        description="API endpoint to get a list of favorite object for your pokemon"
+    ),
+    retrieve=extend_schema(
+        description="API endpoint to retrieve a specific favorite object"
+    ),
+)
+class FavObjectViewSet(ReadOnlyModelViewSet):
+    permission_classes = [IsAuthenticated, ]
+    serializer_class = FavoriteObjectSerializer
+    queryset = FavObject.objects.all()
+    filter_backends = (filters.SearchFilter,)
+    search_fields = ['name',]
