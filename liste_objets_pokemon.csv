@@ -1,0 +1,929 @@
+"nom";"image";"description"
+"Défense +";"https://www.pokemontrash.com/pokedex/images/items/x-defense.png";"Monte la Défense pendant un combat.
+L’effet s’estompe si le Pokémon se
+retire."
+"Muscle +";"https://www.pokemontrash.com/pokedex/images/items/dire-hit.png";"Monte fortement le taux de critiques.
+Utilisable une seule fois. L’effet
+disparaît si le Pokémon se retire."
+"Défense Spéc";"https://www.pokemontrash.com/pokedex/images/items/guard-spec..png";"Empêche la réduction des stats
+de tous les Pokémon de l’équipe
+pendant 5 tours."
+"Déf. Spé. +";"https://www.pokemontrash.com/pokedex/images/items/x-sp.-def.png";"Monte la Défense Spéciale pendant
+un combat. L’effet s’estompe si le
+Pokémon se retire."
+"Attaque +";"https://www.pokemontrash.com/pokedex/images/items/x-attack.png";"Monte l’Attaque pendant un combat.
+L’effet s’estompe si le Pokémon se
+retire."
+"Spécial +";"https://www.pokemontrash.com/pokedex/images/items/x-special.png";"Monte l’Attaque Spéciale pendant
+un combat. L’effet s’estompe si
+le Pokémon se retire."
+"Précision +";"https://www.pokemontrash.com/pokedex/images/items/x-accuracy.png";"Monte la Précision pendant un combat.
+L’effet s’estompe si le Pokémon se
+retire."
+"Vitesse +";"https://www.pokemontrash.com/pokedex/images/items/x-speed.png";"Monte la Vitesse pendant un combat.
+L’effet s’estompe si le Pokémon se
+retire."
+"Baie Tamato";"https://www.pokemontrash.com/pokedex/images/items/tamato-berry.png";"Rend les Pokémon plus amicaux, mais
+baisse leur stat Vitesse de base."
+"Baie Résin";"https://www.pokemontrash.com/pokedex/images/items/grepa-berry.png";"Rend les Pokémon plus amicaux, mais
+baisse leur stat Défense Spéciale de
+base."
+"Baie Lonme";"https://www.pokemontrash.com/pokedex/images/items/hondew-berry.png";"Rend les Pokémon plus amicaux, mais
+baisse leur stat Attaque Spéciale de
+base."
+"Baie Qualot";"https://www.pokemontrash.com/pokedex/images/items/qualot-berry.png";"Rend les Pokémon plus amicaux, mais
+baisse leur stat Défense de base."
+"Baie Alga";"https://www.pokemontrash.com/pokedex/images/items/kelpsy-berry.png";"Rend les Pokémon plus amicaux, mais
+baisse leur stat Attaque de base."
+"Baie Grena";"https://www.pokemontrash.com/pokedex/images/items/pomeg-berry.png";"Rend les Pokémon plus amicaux, mais
+baisse leurs PV de base."
+"Baie Mepo";"https://www.pokemontrash.com/pokedex/images/items/leppa-berry.png";"Baie qui restaure 10 PP lorsqu’elle
+est tenue par un Pokémon."
+"Baie Willia";"https://www.pokemontrash.com/pokedex/images/items/aspear-berry.png";"Baie qui soigne le gel lorsqu’elle
+est tenue par un Pokémon."
+"Baie Fraive";"https://www.pokemontrash.com/pokedex/images/items/rawst-berry.png";"Baie qui soigne les brûlures lorsqu’elle
+est tenue par un Pokémon."
+"Baie Pêcha";"https://www.pokemontrash.com/pokedex/images/items/pecha-berry.png";"Baie qui soigne l’empoisonnement
+lorsqu’elle est tenue par un Pokémon."
+"Baie Maron";"https://www.pokemontrash.com/pokedex/images/items/chesto-berry.png";"Baie qui soigne le sommeil lorsqu’elle
+est tenue par un Pokémon."
+"Baie Oran";"https://www.pokemontrash.com/pokedex/images/items/oran-berry.png";"Baie qui restaure 10 PV lorsqu’elle
+est tenue par un Pokémon."
+"Baie Sitrus";"https://www.pokemontrash.com/pokedex/images/items/sitrus-berry.png";"Baie qui restaure quelques PV
+lorsqu’elle est tenue par un Pokémon."
+"Baie Prine";"https://www.pokemontrash.com/pokedex/images/items/lum-berry.png";"Baie qui soigne tous les problèmes
+de statut lorsqu’elle est tenue
+par un Pokémon."
+"Baie Kika";"https://www.pokemontrash.com/pokedex/images/items/persim-berry.png";"Baie qui soigne la confusion lorsqu’elle
+est tenue par un Pokémon."
+"Baie Ceriz";"https://www.pokemontrash.com/pokedex/images/items/cheri-berry.png";"Baie qui soigne la paralysie lorsqu’elle
+est tenue par un Pokémon."
+"Baie Pommo";"https://www.pokemontrash.com/pokedex/images/items/rowap-berry.png";"Tenue, cette Baie inflige des dégâts
+à l’ennemi s’il utilise une attaque
+spéciale qui atteint son but."
+"Baie Rangma";"https://www.pokemontrash.com/pokedex/images/items/kee-berry.png";"Tenue, cette Baie booste la Défense du Pokémon."
+"Baie Jaboca";"https://www.pokemontrash.com/pokedex/images/items/jaboca-berry.png";"Tenue, cette Baie inflige des dégâts
+à l’ennemi s’il utilise une attaque
+physique qui atteint son but."
+"Baie Éka";"https://www.pokemontrash.com/pokedex/images/items/maranga-berry.png";"Tenue, cette Baie booste la Défense Spéciale
+du Pokémon."
+"Baie Enigma";"https://www.pokemontrash.com/pokedex/images/items/enigma-berry.png";"Tenue, cette Baie restaure les PV
+du Pokémon s’il subit une attaque
+super efficace."
+"Baie Abriko";"https://www.pokemontrash.com/pokedex/images/items/apicot-berry.png";"Tenue, cette Baie monte la Déf. Spé.
+en cas de besoin."
+"Baie Lansat";"https://www.pokemontrash.com/pokedex/images/items/lansat-berry.png";"Tenue, cette Baie monte le taux de
+critiques en cas de besoin."
+"Baie Micle";"https://www.pokemontrash.com/pokedex/images/items/micle-berry.png";"Tenue, cette Baie augmente une fois
+la Précision d’une capacité en cas de
+besoin."
+"Baie Pitaye";"https://www.pokemontrash.com/pokedex/images/items/petaya-berry.png";"Tenue, cette Baie monte l’Atq. Spé.
+en cas de besoin."
+"Baie Sailak";"https://www.pokemontrash.com/pokedex/images/items/salac-berry.png";"Tenue, cette Baie monte la Vitesse
+en cas de besoin."
+"Baie Lichii";"https://www.pokemontrash.com/pokedex/images/items/liechi-berry.png";"Tenue, cette Baie monte l’Attaque
+en cas de besoin."
+"Baie Lingan";"https://www.pokemontrash.com/pokedex/images/items/ganlon-berry.png";"Tenue, cette Baie monte la Défense
+en cas de besoin."
+"Baie Chérim";"https://www.pokemontrash.com/pokedex/images/items/custap-berry.png";"Tenue, cette Baie permet d’attaquer
+en premier une fois en cas de besoin."
+"Baie Frista";"https://www.pokemontrash.com/pokedex/images/items/starf-berry.png";"Tenue, cette Baie monte beaucoup une
+des stats en cas de besoin."
+"Baie Wiki";"https://www.pokemontrash.com/pokedex/images/items/wiki-berry.png";"Tenue, cette Baie restaure des PV en
+cas de besoin, mais rend confus si
+le Pokémon n’aime pas son goût."
+"Baie Mago";"https://www.pokemontrash.com/pokedex/images/items/mago-berry.png";"Tenue, cette Baie restaure des PV en
+cas de besoin, mais rend confus si
+le Pokémon n’aime pas son goût."
+"Baie Gowav";"https://www.pokemontrash.com/pokedex/images/items/aguav-berry.png";"Tenue, cette Baie restaure des PV en
+cas de besoin, mais rend confus si
+le Pokémon n’aime pas son goût."
+"Baie Figuy";"https://www.pokemontrash.com/pokedex/images/items/figy-berry.png";"Tenue, cette Baie restaure des PV en
+cas de besoin, mais rend confus si
+le Pokémon n’aime pas son goût."
+"Baie Papaya";"https://www.pokemontrash.com/pokedex/images/items/iapapa-berry.png";"Tenue, cette Baie restaure des PV en
+cas de besoin, mais rend confus si
+le Pokémon n’aime pas son goût."
+"Baie Zalis";"https://www.pokemontrash.com/pokedex/images/items/chilan-berry.png";"Tenue, cette Baie affaiblit une attaque
+ennemie de type Normal."
+"Baie Babiri";"https://www.pokemontrash.com/pokedex/images/items/babiri-berry.png";"Tenue, cette Baie affaiblit une attaque
+ennemie super efficace de type Acier."
+"Baie Selro";"https://www.pokemontrash.com/pokedex/images/items/roseli-berry.png";"Tenue, cette Baie affaiblit une attaque
+ennemie super efficace de type Fée."
+"Baie Ratam";"https://www.pokemontrash.com/pokedex/images/items/rindo-berry.png";"Tenue, cette Baie affaiblit une attaque
+ennemie super efficace de type Plante."
+"Baie Pocpoc";"https://www.pokemontrash.com/pokedex/images/items/passho-berry.png";"Tenue, cette Baie affaiblit une attaque
+ennemie super efficace de type Eau."
+"Baie Chocco";"https://www.pokemontrash.com/pokedex/images/items/occa-berry.png";"Tenue, cette Baie affaiblit une attaque
+ennemie super efficace de type Feu."
+"Baie Parma";"https://www.pokemontrash.com/pokedex/images/items/wacan-berry.png";"Tenue, cette Baie affaiblit une
+attaque ennemie super efficace
+de type Électrik."
+"Baie Nanone";"https://www.pokemontrash.com/pokedex/images/items/yache-berry.png";"Tenue, cette Baie affaiblit une attaque
+ennemie super efficace de type Glace."
+"Baie Pomroz";"https://www.pokemontrash.com/pokedex/images/items/chople-berry.png";"Tenue, cette Baie affaiblit une attaque
+ennemie super efficace de type Combat."
+"Baie Charti";"https://www.pokemontrash.com/pokedex/images/items/charti-berry.png";"Tenue, cette Baie affaiblit une attaque
+ennemie super efficace de type Roche."
+"Baie Kébia";"https://www.pokemontrash.com/pokedex/images/items/kebia-berry.png";"Tenue, cette Baie affaiblit une attaque
+ennemie super efficace de type Poison."
+"Baie Jouca";"https://www.pokemontrash.com/pokedex/images/items/shuca-berry.png";"Tenue, cette Baie affaiblit une attaque
+ennemie super efficace de type Sol."
+"Baie Cobaba";"https://www.pokemontrash.com/pokedex/images/items/coba-berry.png";"Tenue, cette Baie affaiblit une attaque
+ennemie super efficace de type Vol."
+"Baie Yapap";"https://www.pokemontrash.com/pokedex/images/items/payapa-berry.png";"Tenue, cette Baie affaiblit une attaque
+ennemie super efficace de type Psy."
+"Baie Panga";"https://www.pokemontrash.com/pokedex/images/items/tanga-berry.png";"Tenue, cette Baie affaiblit une attaque
+ennemie super efficace de type Insecte."
+"Baie Sédra";"https://www.pokemontrash.com/pokedex/images/items/kasib-berry.png";"Tenue, cette Baie affaiblit une attaque
+ennemie super efficace de type Spectre."
+"Baie Fraigo";"https://www.pokemontrash.com/pokedex/images/items/haban-berry.png";"Tenue, cette Baie affaiblit une attaque
+ennemie super efficace de type Dragon."
+"Baie Lampou";"https://www.pokemontrash.com/pokedex/images/items/colbur-berry.png";"Tenue, cette Baie affaiblit une
+attaque ennemie super efficace
+de type Ténèbres."
+"Améliorator";"https://www.pokemontrash.com/pokedex/images/items/up-grade.png";"Dispositif transparent rempli de
+données diverses et variées.
+Fabriqué par la Sylphe SARL."
+"Écailledraco";"https://www.pokemontrash.com/pokedex/images/items/dragon-scale.png";"Une écaille épaisse et dure tenue
+parfois par les Pokémon de type Dragon
+quand ils sont attrapés."
+"Protecteur";"https://www.pokemontrash.com/pokedex/images/items/protector.png";"Objet protecteur très dur et très
+lourd, apprécié d’un certain Pokémon."
+"Bel'Écaille";"https://www.pokemontrash.com/pokedex/images/items/prism-scale.png";"Une écaille étrange qui fait évoluer
+certaines espèces de Pokémon.
+Elle a une couleur arc-en-ciel."
+"Pierre Ovale";"https://www.pokemontrash.com/pokedex/images/items/oval-stone.png";"Pierre étrange qui fait évoluer
+certaines espèces de Pokémon.
+Elle a la forme d’un œuf."
+"Pierre Éclat";"https://www.pokemontrash.com/pokedex/images/items/shiny-stone.png";"Pierre étrange qui fait évoluer
+certaines espèces de Pokémon. Elle
+brille d’une lumière aveuglante."
+"Pierre Nuit";"https://www.pokemontrash.com/pokedex/images/items/dusk-stone.png";"Pierre étrange qui fait évoluer
+certaines espèces de Pokémon. Elle
+est sombre comme une nuit sans lune."
+"Pierre Eau";"https://www.pokemontrash.com/pokedex/images/items/water-stone.png";"Une pierre étrange qui fait évoluer
+certaines espèces de Pokémon.
+Elle est de couleur bleue."
+"Électiriseur";"https://www.pokemontrash.com/pokedex/images/items/electirizer.png";"Une boîte remplie d’une énorme quantité
+d’énergie électrique. Appréciée d’un
+certain Pokémon."
+"Pierre Aube";"https://www.pokemontrash.com/pokedex/images/items/dawn-stone.png";"Pierre étrange qui fait évoluer
+certaines espèces de Pokémon.
+Elle brille comme un œil."
+"Tissu Fauche";"https://www.pokemontrash.com/pokedex/images/items/reaper-cloth.png";"Un tissu imprégné d’une énergie
+spirituelle horriblement puissante.
+Apprécié d’un certain Pokémon."
+"Pierre Lune";"https://www.pokemontrash.com/pokedex/images/items/moon-stone.png";"Une pierre étrange qui fait évoluer
+certaines espèces de Pokémon.
+Elle est noire comme la nuit."
+"Pierre Feu";"https://www.pokemontrash.com/pokedex/images/items/fire-stone.png";"Une pierre étrange qui fait évoluer
+certaines espèces de Pokémon.
+Elle est jaune et orange."
+"Pierrefoudre";"https://www.pokemontrash.com/pokedex/images/items/thunderstone.png";"Une pierre étrange qui fait évoluer
+certaines espèces de Pokémon.
+Un éclair est dessiné dessus."
+"Pierreplante";"https://www.pokemontrash.com/pokedex/images/items/leaf-stone.png";"Une pierre étrange qui fait évoluer
+certaines espèces de Pokémon.
+Une feuille est dessinée dessus."
+"CD Douteux";"https://www.pokemontrash.com/pokedex/images/items/dubious-disc.png";"Appareil transparent rempli de données
+douteuses. Son fabricant n’est pas
+connu."
+"Magmariseur";"https://www.pokemontrash.com/pokedex/images/items/magmarizer.png";"Une boîte remplie d’une énorme quantité
+d’énergie magmatique. Appréciée d’un
+certain Pokémon."
+"Pierresoleil";"https://www.pokemontrash.com/pokedex/images/items/sun-stone.png";"Une pierre étrange qui fait évoluer
+certaines espèces de Pokémon.
+Elle est rouge comme le soleil."
+"Sachet Senteur";"https://www.pokemontrash.com/pokedex/images/items/sachet.png";"Un sachet d'herbes et d'épices, au parfum
+trop marqué pour beaucoup, mais néanmoins
+apprécié d'un certain Pokémon."
+"Chantibonbon";"https://www.pokemontrash.com/pokedex/images/items/whipped-dream.png";"Une crème sucrée qui fond dans la bouche,
+légère comme un nuage.
+Elle est appréciée d'un certain Pokémon."
+"Flûte Noire";"https://www.pokemontrash.com/pokedex/images/items/black-flute.png";"Jouet en forme de flûte en verre
+noir. Les amateurs en donnent
+un bon prix."
+"Flûteblanche";"https://www.pokemontrash.com/pokedex/images/items/white-flute.png";"Jouet en forme de flûte en verre
+blanc. Les amateurs en donnent
+un bon prix."
+"Superepousse";"https://www.pokemontrash.com/pokedex/images/items/super-repel.png";"Repousse les Pokémon sauvages
+faibles pendant 200 pas."
+"Max Repousse";"https://www.pokemontrash.com/pokedex/images/items/max-repel.png";"Repousse les Pokémon sauvages
+faibles pendant 250 pas."
+"Corde Sortie";"https://www.pokemontrash.com/pokedex/images/items/escape-rope.png";"Une corde longue et solide permettant
+de sortir rapidement d’une grotte ou
+d’un donjon."
+"Repousse";"https://www.pokemontrash.com/pokedex/images/items/repel.png";"Repousse les Pokémon sauvages
+faibles pendant 100 pas."
+"Queue Skitty";"https://www.pokemontrash.com/pokedex/images/items/fluffy-tail.png";"Objet qui attire les Pokémon. Permet
+de s’enfuir d’un combat contre un
+Pokémon sauvage."
+"Poképoupée";"https://www.pokemontrash.com/pokedex/images/items/poke-doll.png";"Poupée qui attire les Pokémon. Permet
+de s’enfuir d’un combat contre un
+Pokémon sauvage."
+"Poképlumet";"https://www.pokemontrash.com/pokedex/images/items/poke-toy.png";"Objet qui attire les Pokémon. Permet
+de s’enfuir d’un combat contre un
+Pokémon sauvage."
+"Croc Rasoir";"https://www.pokemontrash.com/pokedex/images/items/razor-fang.png";"Objet à tenir pouvant apeurer l’ennemi
+quand le porteur lui inflige des dégâts."
+"Évoluroc";"https://www.pokemontrash.com/pokedex/images/items/eviolite.png";"Un étrange concentré d’évolution qui
+augmente la Défense et la Déf. Spé.
+d’un Pokémon pouvant évoluer."
+"Boule de Neige";"https://www.pokemontrash.com/pokedex/images/items/snowball.png";"Objet à usage unique. Tenue, elle augmente
+l'Attaque du Pokémon lorsqu'il est touché par
+une capacité de type Glace."
+"Lunettes Filtre";"https://www.pokemontrash.com/pokedex/images/items/safety-goggles.png";"Protège le Pokémon contre les dégâts dus
+à la météo et la plupart des capacités
+utilisant de la poudre."
+"Grif. Rasoir";"https://www.pokemontrash.com/pokedex/images/items/razor-claw.png";"Objet à tenir. Griffe crochue
+et pointue augmentant le taux
+de critiques."
+"Grosseracine";"https://www.pokemontrash.com/pokedex/images/items/big-root.png";"Objet à tenir augmentant la puissance
+des attaques volant des PV."
+"Carapace Mue";"https://www.pokemontrash.com/pokedex/images/items/shed-shell.png";"Objet à tenir. Carapace dure qui permet
+au porteur de se retirer même s’il est
+affecté par une attaque immobilisante."
+"Accro Griffe";"https://www.pokemontrash.com/pokedex/images/items/grip-claw.png";"Objet à tenir augmentant la durée des
+attaques à tours multiples telles que
+Ligotage et Étreinte."
+"Roche Humide";"https://www.pokemontrash.com/pokedex/images/items/damp-rock.png";"Objet à tenir augmentant la durée
+de la capacité Danse Pluie utilisée
+par le porteur."
+"Roche Chaude";"https://www.pokemontrash.com/pokedex/images/items/heat-rock.png";"Objet à tenir augmentant la durée
+de la capacité Zénith utilisée par le
+porteur."
+"Roche Lisse";"https://www.pokemontrash.com/pokedex/images/items/smooth-rock.png";"Objet à tenir augmentant la durée de
+la capacité Tempêtesable utilisée par
+le porteur."
+"Roche Glace";"https://www.pokemontrash.com/pokedex/images/items/icy-rock.png";"Objet à tenir augmentant la durée
+de la capacité Grêle utilisée par le
+porteur."
+"Boue Noire";"https://www.pokemontrash.com/pokedex/images/items/black-sludge.png";"Objet à tenir restaurant peu à peu les
+PV des Pokémon de type Poison. Inflige
+des dégâts à tous les autres types."
+"Lichen Lumineux";"https://www.pokemontrash.com/pokedex/images/items/luminous-moss.png";"Du lichen à usage unique. Tenu, il augmente
+la Défense Spéciale lorsque le Pokémon subit
+une attaque de type Eau."
+"Veste de Combat";"https://www.pokemontrash.com/pokedex/images/items/assault-vest.png";"Une veste augmentant la Défense Spéciale,
+mais empêchant d'utiliser des attaques de statut."
+"Pierrallégée";"https://www.pokemontrash.com/pokedex/images/items/float-stone.png";"Une pierre très légère.
+Elle réduit le poids du
+Pokémon qui la tient."
+"Casque Brut";"https://www.pokemontrash.com/pokedex/images/items/rocky-helmet.png";"Tenu, cet objet inflige des dégâts
+à l’attaquant si ce dernier utilise une
+attaque physique qui atteint son but."
+"Ballon";"https://www.pokemontrash.com/pokedex/images/items/air-balloon.png";"Tenu par un Pokémon, cet objet lui
+permet de flotter dans les airs.
+Il éclate en cas d’attaque."
+"Carton Rouge";"https://www.pokemontrash.com/pokedex/images/items/red-card.png";"Carte au pouvoir mystérieux.
+Tenue, elle force un Pokémon touchant
+le porteur à se retirer du combat."
+"Pt de Mire";"https://www.pokemontrash.com/pokedex/images/items/ring-target.png";"Un Pokémon tenant cet objet devient
+sensible aux capacités autrement
+inefficaces en raison de son type."
+"B. Étreinte";"https://www.pokemontrash.com/pokedex/images/items/binding-band.png";"Objet à tenir augmentant la puissance
+des attaques immobilisantes telles
+que Ligotage ou Étreinte."
+"Bulbe";"https://www.pokemontrash.com/pokedex/images/items/absorb-bulb.png";"Bulbe jetable. Tenu, il augmente la
+Défense Spéciale lorsque le Pokémon
+subit une attaque de type Eau."
+"Pile";"https://www.pokemontrash.com/pokedex/images/items/cell-battery.png";"Pile jetable. Tenue, elle augmente
+l’Attaque lorsque le Pokémon subit
+une attaque de type Électrik."
+"Bouton Fuite";"https://www.pokemontrash.com/pokedex/images/items/eject-button.png";"Si le Pokémon qui le tient subit une
+attaque, il s’enfuit pour être remplacé
+par un autre membre de l’équipe."
+"Offrisphère";"https://www.pokemontrash.com/pokedex/images/items/pass-orb.png";"Sphère mystérieuse contenant
+l’Aura d’Unys et utilisable
+avec l’Offri-Aura."
+"Vulné-Assurance";"https://www.pokemontrash.com/pokedex/images/items/weakness-policy.png";"Augmente beaucoup l'Attaque et l'Attaque
+Spéciale du Pokémon lorsqu'il reçoit un coup
+d'un type auquel il est vulnérable."
+"Nœud Destin";"https://www.pokemontrash.com/pokedex/images/items/destiny-knot.png";"Un long fil rouge vif à faire tenir à un
+Pokémon. Si le porteur succombe à
+l’attirance, l’ennemi aussi."
+"Lumargile";"https://www.pokemontrash.com/pokedex/images/items/light-clay.png";"Objet à tenir augmentant la durée
+de capacités barrières telles que
+Mur Lumière et Protection."
+"Bandeau";"https://www.pokemontrash.com/pokedex/images/items/focus-band.png";"Objet à tenir pouvant parfois empêcher
+d’être mis K.O., ne laissant qu’un PV."
+"Lentilscope";"https://www.pokemontrash.com/pokedex/images/items/scope-lens.png";"Objet à tenir. Lentille qui augmente le
+taux de critiques du porteur."
+"Restes";"https://www.pokemontrash.com/pokedex/images/items/leftovers.png";"Objet à tenir permettant de restaurer
+les PV du porteur graduellement durant
+le combat."
+"Grelot Coque";"https://www.pokemontrash.com/pokedex/images/items/shell-bell.png";"Objet à tenir. Restaure un peu les PV
+du porteur à chaque fois qu’il inflige
+des dégâts."
+"Orbe Vie";"https://www.pokemontrash.com/pokedex/images/items/life-orb.png";"Objet à tenir augmentant la puissance
+des capacités, mais qui dépense des
+PV à chaque coup."
+"Ceinture Pro";"https://www.pokemontrash.com/pokedex/images/items/expert-belt.png";"Objet à tenir. Ceinture usée
+augmentant légèrement la puissance
+des capacités super efficaces."
+"Encens Doux";"https://www.pokemontrash.com/pokedex/images/items/lax-incense.png";"Objet à tenir. Le parfum trompeur
+de cet encens baisse la Précision de
+l’ennemi."
+"Loupe";"https://www.pokemontrash.com/pokedex/images/items/wide-lens.png";"Objet à tenir. Magnifique loupe
+augmentant un peu la Précision
+des capacités."
+"Lunet. Sages";"https://www.pokemontrash.com/pokedex/images/items/wise-glasses.png";"Objet à tenir. Paire de lunettes
+épaisses augmentant un peu la
+puissance des attaques spéciales."
+"Boule Fumée";"https://www.pokemontrash.com/pokedex/images/items/smoke-ball.png";"Objet à tenir. Permet au porteur de
+s’enfuir à coup sûr face à un Pokémon
+sauvage."
+"Roche Royale";"https://www.pokemontrash.com/pokedex/images/items/king's-rock.png";"Objet à tenir. Peut apeurer l’ennemi
+lorsque le porteur lui inflige des
+dégâts."
+"Poudreclaire";"https://www.pokemontrash.com/pokedex/images/items/brightpowder.png";"Objet à tenir qui intimide et baisse
+la Précision de l’ennemi."
+"Métronome";"https://www.pokemontrash.com/pokedex/images/items/metronome.png";"Objet à tenir boostant une capacité
+utilisée à répétition. L’effet s’annule
+si une autre capacité est utilisée."
+"Lentil. Zoom";"https://www.pokemontrash.com/pokedex/images/items/zoom-lens.png";"Objet à tenir. Augmente la Précision
+du porteur s’il attaque après l’ennemi."
+"Ceint. Force";"https://www.pokemontrash.com/pokedex/images/items/focus-sash.png";"Objet à tenir permettant au porteur,
+s’il a ses PV pleins, d’éviter un
+potentiel K.O. en conservant un PV."
+"Herbeblanche";"https://www.pokemontrash.com/pokedex/images/items/white-herb.png";"Objet à tenir qui restaure les stats
+baissées. Ne peut être utilisé qu’une
+fois."
+"Vive Griffe";"https://www.pokemontrash.com/pokedex/images/items/quick-claw.png";"Objet à tenir. Griffe légère mais
+tranchante qui permet parfois de
+frapper le premier."
+"Herbe Pouv.";"https://www.pokemontrash.com/pokedex/images/items/power-herb.png";"Objet à tenir et à usage unique. Permet
+d’utiliser immédiatement une capacité
+qui devrait se charger au premier tour."
+"Herbe Mental";"https://www.pokemontrash.com/pokedex/images/items/mental-herb.png";"Objet à tenir qui annule l’attirance
+d’un Pokémon. Ne peut être utilisé
+qu’une fois."
+"Band. Muscle";"https://www.pokemontrash.com/pokedex/images/items/muscle-band.png";"Objet à tenir. Bandeau augmentant
+légèrement la puissance des attaques
+physiques."
+"Band. Choix";"https://www.pokemontrash.com/pokedex/images/items/choice-band.png";"Objet à tenir. Ce bandeau monte
+l’Attaque, mais ne permet d’utiliser
+qu’une seule capacité par combat."
+"Lunet. Choix";"https://www.pokemontrash.com/pokedex/images/items/choice-specs.png";"Objet à tenir augmentant l’Attaque
+Spéciale, mais ne permettant d’utiliser
+qu’une seule capacité par combat."
+"Mouch. Choix";"https://www.pokemontrash.com/pokedex/images/items/choice-scarf.png";"Objet à tenir augmentant la Vitesse,
+mais ne permettant d’utiliser qu’une
+seule capacité par combat."
+"Poign. Pouv.";"https://www.pokemontrash.com/pokedex/images/items/power-bracer.png";"Objet à tenir augmentant l’Attaque
+lors des montées de niveau, mais
+réduisant la Vitesse pendant le combat."
+"Ceint. Pouv.";"https://www.pokemontrash.com/pokedex/images/items/power-belt.png";"Objet à tenir augmentant la Défense
+lors des montées de niveau, mais
+réduisant la Vitesse pendant le combat."
+"Lent. Pouv.";"https://www.pokemontrash.com/pokedex/images/items/power-lens.png";"Objet à tenir augmentant l’Attaque
+Spéciale lors des montées de niveau mais
+réduisant la Vitesse pendant le combat."
+"Band. Pouv.";"https://www.pokemontrash.com/pokedex/images/items/power-band.png";"Objet à tenir augmentant la Défense
+Spéciale lors des montées de niveau mais
+réduisant la Vitesse pendant le combat."
+"Chaîne Pouv.";"https://www.pokemontrash.com/pokedex/images/items/power-anklet.png";"Objet à tenir. Il augmente la Vitesse
+lors des montées de niveau mais réduit
+la Vitesse pendant le combat."
+"Poids Pouv.";"https://www.pokemontrash.com/pokedex/images/items/power-weight.png";"Objet à tenir augmentant les PV lors
+des montées de niveau, mais réduisant
+la Vitesse pendant le combat."
+"Brac. Macho";"https://www.pokemontrash.com/pokedex/images/items/macho-brace.png";"Objet à tenir. C’est un bracelet dur
+et lourd qui rend le porteur plus fort,
+mais baisse sa Vitesse."
+"Balle Fer";"https://www.pokemontrash.com/pokedex/images/items/iron-ball.png";"Objet à tenir réduisant la Vitesse. Rend
+les porteurs de type Vol et lévitant
+sensibles aux capacités de type Sol."
+"Orbe Flamme";"https://www.pokemontrash.com/pokedex/images/items/flame-orb.png";"Objet à tenir. Orbe bizarre brûlant
+son porteur durant le combat."
+"Orbe Toxique";"https://www.pokemontrash.com/pokedex/images/items/toxic-orb.png";"Objet à tenir. Orbe bizarre
+empoisonnant gravement son
+porteur durant le combat."
+"Piquants";"https://www.pokemontrash.com/pokedex/images/items/sticky-barb.png";"Objet à tenir blessant le porteur à
+chaque tour. Peut s’accrocher aux
+ennemis qui attaquent le porteur."
+"Encens Plein";"https://www.pokemontrash.com/pokedex/images/items/full-incense.png";"Objet à tenir. Encens au parfum
+exotique gonflant son porteur et
+le faisant se déplacer lentement."
+"Ralentiqueue";"https://www.pokemontrash.com/pokedex/images/items/lagging-tail.png";"Objet à tenir extrêmement lourd qui
+ralentit le porteur."
+"Œuf Chance";"https://www.pokemontrash.com/pokedex/images/items/lucky-egg.png";"Objet à tenir. Œuf rempli de joie qui
+augmente le nombre de points Exp.
+gagnés au combat."
+"Pierre Stase";"https://www.pokemontrash.com/pokedex/images/items/everstone.png";"Objet à tenir. Pierre merveilleuse
+empêchant l’évolution."
+"Rune Purif.";"https://www.pokemontrash.com/pokedex/images/items/cleanse-tag.png";"Objet à tenir. Aide à repousser les
+Pokémon sauvages si le porteur est
+le premier Pokémon de l’équipe."
+"Grelot Zen";"https://www.pokemontrash.com/pokedex/images/items/soothe-bell.png";"Objet à tenir. Grelot dont le carillon
+calme le porteur et favorise l’amitié."
+"Multi Exp";"https://www.pokemontrash.com/pokedex/images/items/exp.-share.png";"Objet à tenir. Le porteur reçoit une
+partie des points Exp. du combat sans
+avoir à combattre."
+"Encens Veine";"https://www.pokemontrash.com/pokedex/images/items/luck-incense.png";"Objet à tenir. Double l’argent gagné
+si le porteur se joint au combat."
+"Encens Pur";"https://www.pokemontrash.com/pokedex/images/items/pure-incense.png";"Objet à tenir. Aide à repousser les
+Pokémon sauvages si le porteur est
+le premier Pokémon de l’équipe."
+"Pièce Rune";"https://www.pokemontrash.com/pokedex/images/items/amulet-coin.png";"Objet à tenir. Double l’argent gagné
+si le porteur se joint au combat."
+"Plaque Pixie";"https://www.pokemontrash.com/pokedex/images/items/pixie-plate.png";"Objet à tenir. Une tablette en pierre
+augmentant la puissance des capacités
+de type Fée."
+"Plaque Roc";"https://www.pokemontrash.com/pokedex/images/items/stone-plate.png";"Objet à tenir. Tablette en pierre
+augmentant la puissance des capacités
+de type Roche."
+"Plaquinsect";"https://www.pokemontrash.com/pokedex/images/items/insect-plate.png";"Objet à tenir. Tablette en pierre
+augmentant la puissance des capacités
+de type Insecte."
+"Plaquesprit";"https://www.pokemontrash.com/pokedex/images/items/mind-plate.png";"Objet à tenir. Tablette en pierre
+augmentant la puissance des capacités
+de type Psy."
+"Plaque Ciel";"https://www.pokemontrash.com/pokedex/images/items/sky-plate.png";"Objet à tenir. Tablette en pierre
+augmentant la puissance des capacités
+de type Vol."
+"Plaque Volt";"https://www.pokemontrash.com/pokedex/images/items/zap-plate.png";"Objet à tenir. Tablette en pierre
+augmentant la puissance des capacités
+de type Électrik."
+"Plaque Herbe";"https://www.pokemontrash.com/pokedex/images/items/meadow-plate.png";"Objet à tenir. Tablette en pierre
+augmentant la puissance des capacités
+de type Plante."
+"Plaque Glace";"https://www.pokemontrash.com/pokedex/images/items/icicle-plate.png";"Objet à tenir. Tablette en pierre
+augmentant la puissance des capacités
+de type Glace."
+"Plaque Terre";"https://www.pokemontrash.com/pokedex/images/items/earth-plate.png";"Objet à tenir. Tablette en pierre
+augmentant la puissance des capacités
+de type Sol."
+"Plaque Hydro";"https://www.pokemontrash.com/pokedex/images/items/splash-plate.png";"Objet à tenir. Tablette en pierre
+augmentant la puissance des capacités
+de type Eau."
+"Plaque Fantô";"https://www.pokemontrash.com/pokedex/images/items/spooky-plate.png";"Objet à tenir. Tablette en pierre
+augmentant la puissance des capacités
+de type Spectre."
+"Plaque Toxic";"https://www.pokemontrash.com/pokedex/images/items/toxic-plate.png";"Objet à tenir. Tablette en pierre
+augmentant la puissance des capacités
+de type Poison."
+"Plaque Flam";"https://www.pokemontrash.com/pokedex/images/items/flame-plate.png";"Objet à tenir. Tablette en pierre
+augmentant la puissance des capacités
+de type Feu."
+"Plaque Poing";"https://www.pokemontrash.com/pokedex/images/items/fist-plate.png";"Objet à tenir. Tablette en pierre
+augmentant la puissance des capacités
+de type Combat."
+"Plaque Fer";"https://www.pokemontrash.com/pokedex/images/items/iron-plate.png";"Objet à tenir. Tablette en pierre
+augmentant la puissance des capacités
+de type Acier."
+"Plaque Ombre";"https://www.pokemontrash.com/pokedex/images/items/dread-plate.png";"Objet à tenir. Tablette en pierre
+augmentant la puissance des capacités
+de type Ténèbres."
+"Piège vicieux de SIMCO";"NOUS SOMMES DÉCOUVERTS";
+"Plaque Draco";"https://www.pokemontrash.com/pokedex/images/items/draco-plate.png";"Objet à tenir. Tablette en pierre
+augmentant la puissance des capacités
+de type Dragon."
+"Orbe Platiné";"https://www.pokemontrash.com/pokedex/images/items/griseous-orb.png";"Mystérieux objet destiné à Giratina.
+Améliore les capacités de type Dragon
+et Spectre."
+"Ballelumière";"https://www.pokemontrash.com/pokedex/images/items/light-ball.png";"Objet à faire tenir par Pikachu. Orbe
+énigmatique qui monte son Attaque et
+son Attaque Spéciale."
+"Bâton";"https://www.pokemontrash.com/pokedex/images/items/stick.png";"Objet à faire tenir à Canarticho.
+Poireau très long et solide qui
+monte son taux de critiques."
+"Écailleocéan";"https://www.pokemontrash.com/pokedex/images/items/deep-sea-scale.png";"Objet à faire tenir à Coquiperl.
+Écaille de couleur rose montant
+sa Défense Spéciale."
+"Masse Os";"https://www.pokemontrash.com/pokedex/images/items/thick-club.png";"Objet à faire tenir à Osselait ou
+Ossatueur. Os dur qui monte leur
+Attaque."
+"Poing Chance";"https://www.pokemontrash.com/pokedex/images/items/lucky-punch.png";"Objet à faire tenir à Leveinard. Paire
+de gants montant son taux de critiques."
+"Poudre Métal";"https://www.pokemontrash.com/pokedex/images/items/metal-powder.png";"Objet à faire tenir à Métamorph. Cette
+poudre étrange, très fine mais
+résistante, booste sa Défense."
+"Module Cryo";"https://www.pokemontrash.com/pokedex/images/items/chill-drive.png";"Tenu par Genesect, ce module
+change la capacité TechnoBuster
+en une capacité de type Glace."
+"Orbe Adamant";"https://www.pokemontrash.com/pokedex/images/items/adamant-orb.png";"Orbe très brillant destiné à Dialga.
+Augmente la puissance des capacités
+de type Dragon et Acier."
+"Module Aqua";"https://www.pokemontrash.com/pokedex/images/items/douse-drive.png";"Tenu par Genesect, ce module
+change la capacité TechnoBuster
+en une capacité de type Eau."
+"Module Choc";"https://www.pokemontrash.com/pokedex/images/items/shock-drive.png";"Tenu par Genesect, ce module
+change la capacité TechnoBuster
+en une capacité de type Électrik."
+"Poudre Vite";"https://www.pokemontrash.com/pokedex/images/items/quick-powder.png";"Objet à faire tenir à Métamorph. Cette
+poudre étrange, très fine mais
+résistante, augmente sa Vitesse."
+"Module Pyro";"https://www.pokemontrash.com/pokedex/images/items/burn-drive.png";"Tenu par Genesect, ce module
+change la capacité TechnoBuster
+en une capacité de type Feu."
+"Rosée Âme";"https://www.pokemontrash.com/pokedex/images/items/soul-dew.png";"Orbe prodigieux à faire tenir à Latios
+ou Latias qui monte leur Attaque
+Spéciale et leur Défense Spéciale."
+"Dent Océan";"https://www.pokemontrash.com/pokedex/images/items/deep-sea-tooth.png";"Objet à faire tenir à Coquiperl.
+Dent de couleur argent montant
+son Attaque Spéciale."
+"Orbe Perlé";"https://www.pokemontrash.com/pokedex/images/items/lustrous-orb.png";"Bel orbe luisant destiné à Palkia.
+Augmente la puissance des capacités
+de type Dragon et Eau."
+"Croc Dragon";"https://www.pokemontrash.com/pokedex/images/items/dragon-fang.png";"Objet à tenir. Croc dur et pointu
+montant la puissance des capacités
+de type Dragon."
+"Mouch. Soie";"https://www.pokemontrash.com/pokedex/images/items/silk-scarf.png";"Objet à tenir. Mouchoir somptueux
+montant la puissance des capacités
+de type Normal."
+"Encens Mer";"https://www.pokemontrash.com/pokedex/images/items/sea-incense.png";"Objet à tenir. Encens au parfum curieux
+qui augmente la puissance des capacités
+de type Eau."
+"Encens Fleur";"https://www.pokemontrash.com/pokedex/images/items/rose-incense.png";"Objet à tenir. Encens au parfum
+exotique augmentant la puissance
+des capacités de type Plante."
+"Grain Miracl";"https://www.pokemontrash.com/pokedex/images/items/miracle-seed.png";"Objet à tenir. Graine remplie de vie qui
+monte la puissance des capacités de
+type Plante."
+"Encens Vague";"https://www.pokemontrash.com/pokedex/images/items/wave-incense.png";"Objet à tenir. Encens au parfum
+exotique augmentant la puissance
+des capacités de type Eau."
+"Encens Roc";"https://www.pokemontrash.com/pokedex/images/items/rock-incense.png";"Objet à tenir. Encens au parfum
+exotique augmentant la puissance
+des capacités de type Roche."
+"Bizar.Encens";"https://www.pokemontrash.com/pokedex/images/items/odd-incense.png";"Objet à tenir. Encens au parfum
+exotique augmentant la puissance
+des capacités de type Psy."
+"Charbon";"https://www.pokemontrash.com/pokedex/images/items/charcoal.png";"Objet à tenir. Combustible montant la
+puissance des capacités de type Feu."
+"Cuillertordu";"https://www.pokemontrash.com/pokedex/images/items/twisted-spoon.png";"Objet à tenir. Cuillère contenant un
+pouvoir télékinésique montant la
+puissance des capacités de type Psy."
+"Sable Doux";"https://www.pokemontrash.com/pokedex/images/items/soft-sand.png";"Objet à tenir. Sable fin et soyeux
+montant la puissance des capacités
+de type Sol."
+"Pierre Dure";"https://www.pokemontrash.com/pokedex/images/items/hard-stone.png";"Objet à tenir. Pierre incassable qui
+monte la puissance des capacités de
+type Roche."
+"Lunet.Noires";"https://www.pokemontrash.com/pokedex/images/items/black-glasses.png";"Objet à tenir. Paire de lunettes à
+l’aspect louche qui monte la puissance
+des capacités de type Ténèbres."
+"Poudre Arg.";"https://www.pokemontrash.com/pokedex/images/items/silver-powder.png";"Objet à tenir. Poudre d’argent
+brillante qui monte la puissance
+des capacités de type Insecte."
+"Ceint.Noire";"https://www.pokemontrash.com/pokedex/images/items/black-belt.png";"Objet à tenir. Ceinture qui augmente
+la détermination et la puissance des
+capacités de type Combat."
+"Aimant";"https://www.pokemontrash.com/pokedex/images/items/magnet.png";"Objet à tenir. Aimant puissant montant
+la puissance des capacités de type
+Électrik."
+"Eau Mystique";"https://www.pokemontrash.com/pokedex/images/items/mystic-water.png";"Objet à tenir. Gemme en forme de
+goutte d’eau montant la puissance
+des capacités de type Eau."
+"Bec Pointu";"https://www.pokemontrash.com/pokedex/images/items/sharp-beak.png";"Objet à tenir. Bec long et pointu
+montant la puissance des capacités
+de type Vol."
+"Peau Métal";"https://www.pokemontrash.com/pokedex/images/items/metal-coat.png";"Objet à tenir. Pellicule métallique
+spéciale qui monte la puissance des
+capacités de type Acier."
+"Pic Venin";"https://www.pokemontrash.com/pokedex/images/items/poison-barb.png";"Objet à tenir. Petit pic empoisonné
+montant la puissance des capacités
+de type Poison."
+"Rune Sort";"https://www.pokemontrash.com/pokedex/images/items/spell-tag.png";"Objet à tenir. Plaque sinistre et
+étrange montant la puissance des
+capacités de type Spectre."
+"Glacéternel";"https://www.pokemontrash.com/pokedex/images/items/never-melt-ice.png";"Objet à tenir. Morceau de glace qui
+réfléchit la chaleur et monte la
+puissance des capacités de type Glace."
+"Petit Champi";"https://www.pokemontrash.com/pokedex/images/items/tinymushroom.png";"Un petit champignon plutôt rare.
+Il est plutôt populaire parmi
+certains fans dévoués."
+"Pépite";"https://www.pokemontrash.com/pokedex/images/items/nugget.png";"Pépite d’or pur qui brille
+magnifiquement. Peut être vendue
+à bon prix aux magasins."
+"Morc. Étoile";"https://www.pokemontrash.com/pokedex/images/items/star-piece.png";"Fragment de gemme qui brille d’un éclat
+rouge. Peut se vendre à bon prix aux
+magasins."
+"Jolie Aile";"https://www.pokemontrash.com/pokedex/images/items/pretty-wing.png";"Une plume très jolie, mais ordinaire
+et sans effet particulier."
+"Champi Suave";"https://www.pokemontrash.com/pokedex/images/items/balmmushroom.png";"Champignon rare qui répand un
+agréable parfum autour de lui.
+Les amateurs en donnent un bon prix."
+"Grande Perle";"https://www.pokemontrash.com/pokedex/images/items/big-pearl.png";"Une grande perle qui brille d’une jolie
+couleur argent. Peut être vendue à
+bon prix aux magasins."
+"Perle Triple";"https://www.pokemontrash.com/pokedex/images/items/pearl-string.png";"Une très grosse perle qui brille
+d’une jolie couleur argent.
+Les amateurs en donnent un bon prix."
+"Morc. Comète";"https://www.pokemontrash.com/pokedex/images/items/comet-shard.png";"Un fragment de comète, tombé au sol
+quand elle traversait l’atmosphère.
+Les amateurs en donnent un bon prix."
+"Vieux Sou";"https://www.pokemontrash.com/pokedex/images/items/relic-copper.png";"Une pièce de cuivre d’une civilisation
+vieille de plus de 3 000 ans.
+Les amateurs en donnent un bon prix."
+"Vieil Écu";"https://www.pokemontrash.com/pokedex/images/items/relic-silver.png";"Une pièce d’argent d’une civilisation
+vieille de plus de 3 000 ans.
+Les amateurs en donnent un bon prix."
+"Vieux Ducat";"https://www.pokemontrash.com/pokedex/images/items/relic-gold.png";"Une pièce d’or d’une civilisation
+vieille de plus de 3 000 ans.
+Les amateurs en donnent un bon prix."
+"Vieux Vase";"https://www.pokemontrash.com/pokedex/images/items/relic-vase.png";"Un vase d’une civilisation
+vieille de plus de 3 000 ans.
+Les amateurs en donnent un bon prix."
+"Vieux Bijou";"https://www.pokemontrash.com/pokedex/images/items/relic-band.png";"Un bijou d’une civilisation
+vieille de plus de 3 000 ans.
+Les amateurs en donnent un bon prix."
+"Vieux Santon";"https://www.pokemontrash.com/pokedex/images/items/relic-statue.png";"Une statuette d’une civilisation
+vieille de plus de 3 000 ans.
+Les amateurs en donnent un bon prix."
+"Perle";"https://www.pokemontrash.com/pokedex/images/items/pearl.png";"Une petite perle qui brille d’une jolie
+couleur argent. Peut être vendue
+à bas prix aux magasins."
+"Gros Champi";"https://www.pokemontrash.com/pokedex/images/items/big-mushroom.png";"Un grand champignon plutôt rare.
+Il est très populaire parmi
+certains fans dévoués."
+"Os Rare";"https://www.pokemontrash.com/pokedex/images/items/rare-bone.png";"Un os d’une grande valeur pour
+l’archéologie Pokémon. Peut être
+vendu à bon prix aux magasins."
+"Pouss.Étoile";"https://www.pokemontrash.com/pokedex/images/items/stardust.png";"Sable rouge ravissant, aux grains très
+fins. Peut être vendu à bon prix aux
+magasins."
+"Maxi Pépite";"https://www.pokemontrash.com/pokedex/images/items/big-nugget.png";"Grosse pépite d’or pur qui brille
+magnifiquement.
+Les amateurs en donnent un bon prix."
+"Vieux Tortil";"https://www.pokemontrash.com/pokedex/images/items/relic-crown.png";"Une couronne d’une civilisation
+vieille de plus de 3 000 ans.
+Les amateurs en donnent un bon prix."
+"Aile Force";"https://www.pokemontrash.com/pokedex/images/items/muscle-wing.png";"Objet à utiliser sur un Pokémon.
+Il augmente un peu son Attaque
+lors d’une montée de niveau."
+"Protéine";"https://www.pokemontrash.com/pokedex/images/items/protein.png";"Une boisson très nutritive qui monte
+l’Attaque de base d’un Pokémon."
+"Fer";"https://www.pokemontrash.com/pokedex/images/items/iron.png";"Une boisson très nutritive qui monte
+la Défense de base d’un Pokémon."
+"Carbone";"https://www.pokemontrash.com/pokedex/images/items/carbos.png";"Une boisson très nutritive qui monte
+la Vitesse de base d’un Pokémon."
+"Calcium";"https://www.pokemontrash.com/pokedex/images/items/calcium.png";"Une boisson très nutritive qui
+monte l’Attaque Spéciale de
+base d’un Pokémon."
+"Aile Sprint";"https://www.pokemontrash.com/pokedex/images/items/swift-wing.png";"Objet à utiliser sur un Pokémon.
+Il augmente un peu sa Vitesse
+lors d’une montée de niveau."
+"PP Plus";"https://www.pokemontrash.com/pokedex/images/items/pp-up.png";"Monte un peu les PP max d’une
+capacité sélectionnée."
+"Zinc";"https://www.pokemontrash.com/pokedex/images/items/zinc.png";"Une boisson très nutritive qui monte
+la Défense Spéciale d’un Pokémon."
+"PP Max";"https://www.pokemontrash.com/pokedex/images/items/pp-max.png";"Monte sensiblement les PP max d’une
+capacité sélectionnée."
+"Pilule Talent";"https://www.pokemontrash.com/pokedex/images/items/ability-capsule.png";"Une capsule permettant à un Pokémon
+pouvant avoir deux talents de changer
+de l'un à l'autre."
+"Aile Mental";"https://www.pokemontrash.com/pokedex/images/items/clever-wing.png";"Objet à utiliser sur un Pokémon.
+Il augmente un peu sa Déf. Spé.
+lors d’une montée de niveau."
+"Aile Esprit";"https://www.pokemontrash.com/pokedex/images/items/genius-wing.png";"Objet à utiliser sur un Pokémon.
+Il augmente un peu son Atq. Spé.
+lors d’une montée de niveau."
+"Aile Armure";"https://www.pokemontrash.com/pokedex/images/items/resist-wing.png";"Objet à utiliser sur un Pokémon.
+Il augmente un peu sa Défense
+lors d’une montée de niveau."
+"PV Plus";"https://www.pokemontrash.com/pokedex/images/items/hp-up.png";"Une boisson très nutritive qui monte
+les PV de base d’un Pokémon."
+"Super Bonbon";"https://www.pokemontrash.com/pokedex/images/items/rare-candy.png";"Un bonbon plein d’énergie.
+Il permet à un Pokémon de gagner
+un niveau d’expérience."
+"Aile Santé";"https://www.pokemontrash.com/pokedex/images/items/health-wing.png";"Objet à utiliser sur un Pokémon.
+Il augmente un peu ses PV lors
+d’une montée de niveau."
+"Soda Cool";"https://www.pokemontrash.com/pokedex/images/items/soda-pop.png";"Une boisson pétillante.
+Restaure 60 PV à un Pokémon."
+"Eau Fraîche";"https://www.pokemontrash.com/pokedex/images/items/fresh-water.png";"Une eau riche en minéraux.
+Restaure 50 PV à un Pokémon."
+"Racinénergie";"https://www.pokemontrash.com/pokedex/images/items/energy-root.png";"Une racine très amère.
+Restaure 200 PV à un Pokémon."
+"Potion Max";"https://www.pokemontrash.com/pokedex/images/items/max-potion.png";"Un spray qui soigne les blessures.
+Restaure tous les PV d’un Pokémon."
+"Super Potion";"https://www.pokemontrash.com/pokedex/images/items/super-potion.png";"Un spray qui soigne les blessures.
+Restaure 50 PV à un Pokémon."
+"Hyper Potion";"https://www.pokemontrash.com/pokedex/images/items/hyper-potion.png";"Un spray qui soigne les blessures.
+Restaure 200 PV à un Pokémon."
+"Guérison";"https://www.pokemontrash.com/pokedex/images/items/full-restore.png";"Un médicament qui restaure tous les
+PV d’un Pokémon et soigne tous ses
+problèmes de statut."
+"Chococœur";"https://www.pokemontrash.com/pokedex/images/items/sweet-heart.png";"Un chocolat extrêmement
+sucré. Restaure 20 PV
+à un Pokémon."
+"Limonade";"https://www.pokemontrash.com/pokedex/images/items/lemonade.png";"Une boisson très sucrée.
+Restaure 80 PV à un Pokémon."
+"Lait Meumeu";"https://www.pokemontrash.com/pokedex/images/items/moomoo-milk.png";"Un lait très nourrissant.
+Restaure 100 PV à un Pokémon."
+"Jus de Baie";"https://www.pokemontrash.com/pokedex/images/items/berry-juice.png";"Une boisson 100% pur jus de Baies.
+Restaure 20 PV à un Pokémon."
+"Potion";"https://www.pokemontrash.com/pokedex/images/items/potion.png";"Un spray qui soigne les blessures.
+Restaure 20 PV à un Pokémon."
+"Poudrénergie";"https://www.pokemontrash.com/pokedex/images/items/energypowder.png";"Une poudre médicinale très amère.
+Restaure 50 PV à un Pokémon."
+"Huile";"https://www.pokemontrash.com/pokedex/images/items/ether.png";"Restaure jusqu’à 10 PP d’une
+capacité sélectionnée."
+"Max Élixir";"https://www.pokemontrash.com/pokedex/images/items/max-elixir.png";"Restaure tous les PP de toutes
+les capacités d’un Pokémon."
+"Élixir";"https://www.pokemontrash.com/pokedex/images/items/elixir.png";"Restaure 10 PP de toutes les
+capacités d’un Pokémon."
+"Huile Max";"https://www.pokemontrash.com/pokedex/images/items/max-ether.png";"Restaure tous les PP d’une capacité
+sélectionnée."
+"Rappel";"https://www.pokemontrash.com/pokedex/images/items/revive.png";"Un médicament qui ranime un Pokémon
+K.O. et restaure la moitié de ses PV
+max."
+"Herbe Rappel";"https://www.pokemontrash.com/pokedex/images/items/revival-herb.png";"Une herbe médicinale très amère.
+Ranime un Pokémon K.O. et restaure
+tous ses PV."
+"Cendresacrée";"https://www.pokemontrash.com/pokedex/images/items/sacred-ash.png";"Ranime tous les Pokémon K.O. et
+restaure tous leurs PV."
+"Rappel Max";"https://www.pokemontrash.com/pokedex/images/items/max-revive.png";"Un médicament qui ranime un Pokémon
+K.O. et restaure tous ses PV."
+"Galette Illumis";"https://www.pokemontrash.com/pokedex/images/items/lumiose-galette.png";"La spécialité d'Illumis. Elle soigne tous
+les problèmes de statut d'un Pokémon."
+"Total Soin";"https://www.pokemontrash.com/pokedex/images/items/full-heal.png";"Un médicament sous forme de spray.
+Soigne tous les problèmes de statut
+d’un Pokémon."
+"Anti-Para";"https://www.pokemontrash.com/pokedex/images/items/paralyze-heal.png";"Un médicament sous forme de spray.
+Soigne un Pokémon de la paralysie."
+"Anti-Brûle";"https://www.pokemontrash.com/pokedex/images/items/burn-heal.png";"Un médicament sous forme de spray.
+Soigne les brûlures d’un Pokémon."
+"Poudre Soin";"https://www.pokemontrash.com/pokedex/images/items/heal-powder.png";"Une poudre médicinale très amère.
+Soigne tous les problèmes de statut
+d’un Pokémon."
+"Glace Volute";"https://www.pokemontrash.com/pokedex/images/items/casteliacone.png";"Spécialité de Volucité. Elle
+soigne tous les problèmes
+de statut d’un Pokémon."
+"Lava Cookie";"https://www.pokemontrash.com/pokedex/images/items/lava-cookie.png";"La spécialité de la ville de Vermilava.
+Soigne tous les problèmes de statut
+d’un Pokémon."
+"Antigel";"https://www.pokemontrash.com/pokedex/images/items/ice-heal.png";"Un médicament sous forme de spray.
+Réchauffe un Pokémon gelé."
+"Vieux Gâteau";"https://www.pokemontrash.com/pokedex/images/items/old-gateau.png";"Spécialité du Vieux Château. Il
+soigne tous les problèmes de
+statut d’un Pokémon."
+"Antidote";"https://www.pokemontrash.com/pokedex/images/items/antidote.png";"Un médicament sous forme de spray.
+Guérit un Pokémon empoisonné."
+"Réveil";"https://www.pokemontrash.com/pokedex/images/items/awakening.png";"Un médicament sous forme de spray.
+Réveille un Pokémon endormi."
+"Fertibondance";"https://www.pokemontrash.com/pokedex/images/items/rich-mulch.png";"Un engrais servant à faire pousser des Baies.
+Il augmente le nombre de Baies récoltées
+sans que le jardinier ait à s'occuper du plant."
+"Fertistantané";"https://www.pokemontrash.com/pokedex/images/items/surprise-mulch.png";"Un engrais servant à faire pousser des Baies.
+Il provoque des mutations soudaines en fonction
+de la combinaison de Baies plantées."
+"Fertibérance";"https://www.pokemontrash.com/pokedex/images/items/boost-mulch.png";"Un engrais servant à faire pousser des Baies.
+Il augmente le nombre de Baies récoltées si
+elles sont arrosées avec beaucoup d'eau."
+"Fertiprodige";"https://www.pokemontrash.com/pokedex/images/items/amaze-mulch.png";"Un engrais servant à faire pousser des Baies.
+Il cumule les effets des Fertibérance,
+Fertibondance et Fertistantané."
+"Fertiglu";"https://www.pokemontrash.com/pokedex/images/items/gooey-mulch.png";"Un engrais utilisé sur sol meuble.
+Les amateurs en donnent un bon prix."
+"Fertistable";"https://www.pokemontrash.com/pokedex/images/items/stable-mulch.png";"Un engrais utilisé sur sol meuble.
+Les amateurs en donnent un bon prix."
+"Fertihumide";"https://www.pokemontrash.com/pokedex/images/items/damp-mulch.png";"Un engrais utilisé sur sol meuble.
+Les amateurs en donnent un bon prix."
+"Fertipousse";"https://www.pokemontrash.com/pokedex/images/items/growth-mulch.png";"Un engrais utilisé sur sol meuble.
+Les amateurs en donnent un bon prix."
+"Rapide Ball";"https://www.pokemontrash.com/pokedex/images/items/quick-ball.png";"Une Poké Ball qui permet d’attraper un
+Pokémon sauvage plus facilement si on
+l’utilise au début du combat."
+"Mémoire Ball";"https://www.pokemontrash.com/pokedex/images/items/cherish-ball.png";"Une Poké Ball plutôt rare qui fut créée
+pour une occasion spéciale."
+"Filet Ball";"https://www.pokemontrash.com/pokedex/images/items/net-ball.png";"Une Poké Ball un peu spéciale qui
+fonctionne particulièrement bien
+sur les Pokémon Eau ou Insecte."
+"Rêve Ball";"https://www.pokemontrash.com/pokedex/images/items/dream-ball.png";"Poké Ball du rêve. Apparue dans le
+Sac à la Forêt du Heylink. Permet
+d’attraper n’importe quel Pokémon."
+"Soin Ball";"https://www.pokemontrash.com/pokedex/images/items/heal-ball.png";"Une Poké Ball de soin qui rend tous les
+PV du Pokémon attrapé et qui soigne
+tous les changements de statut."
+"Bis Ball";"https://www.pokemontrash.com/pokedex/images/items/repeat-ball.png";"Une Poké Ball un peu spéciale qui
+fonctionne particulièrement bien sur
+les espèces de Pokémon déjà capturées."
+"Luxe Ball";"https://www.pokemontrash.com/pokedex/images/items/luxury-ball.png";"Une Poké Ball pratique qui permet
+de gagner rapidement l’amitié d’un
+Pokémon sauvage attrapé."
+"Chrono Ball";"https://www.pokemontrash.com/pokedex/images/items/timer-ball.png";"Une Poké Ball un peu spéciale qui
+fonctionne de mieux en mieux à
+mesure que le combat s’éternise."
+"Sombre Ball";"https://www.pokemontrash.com/pokedex/images/items/dusk-ball.png";"Une Poké Ball efficace pour attraper
+les Pokémon de nuit ou dans des
+endroits sombres tels que les grottes."
+"Faiblo Ball";"https://www.pokemontrash.com/pokedex/images/items/nest-ball.png";"Une Poké Ball un peu spéciale qui
+fonctionne particulièrement bien
+sur les Pokémon les plus faibles."
+"Scuba Ball";"https://www.pokemontrash.com/pokedex/images/items/dive-ball.png";"Une Poké Ball un peu spéciale qui
+fonctionne particulièrement bien
+sur les Pokémon sous-marins."
+"Honor Ball";"https://www.pokemontrash.com/pokedex/images/items/premier-ball.png";"Une Poké Ball assez rare qui fut créée
+pour un événement particulier."
+"Super Ball";"https://www.pokemontrash.com/pokedex/images/items/great-ball.png";"Une Ball très performante dont le taux
+de réussite est supérieur à celui de la
+Poké Ball."
+"Safari Ball";"https://www.pokemontrash.com/pokedex/images/items/safari-ball.png";"Une Poké Ball spéciale dont l’usage
+est réservé au Parc Safari. Elle est
+décorée d’un motif camouflage."
+"Poké Ball";"https://www.pokemontrash.com/pokedex/images/items/poke-ball.png";"Un objet pareil à une capsule, qui
+capture les Pokémon sauvages. Il suffit
+pour cela de le jeter comme une balle."
+"Hyper Ball";"https://www.pokemontrash.com/pokedex/images/items/ultra-ball.png";"Une Ball ultraperformante dont le taux
+de réussite est supérieur à celui de la
+Super Ball."
+"Master Ball";"https://www.pokemontrash.com/pokedex/images/items/master-ball.png";"Assurément la Ball la plus performante.
+Elle permet de capturer à coup sûr un
+Pokémon sauvage."
+"Compét'Ball";"https://www.pokemontrash.com/pokedex/images/items/sport-ball.png";"Une Poké Ball spéciale utilisée au
+Concours de Capture d’insecte."
+"Parc Ball";"https://www.pokemontrash.com/pokedex/images/items/park-ball.png";"Une Poké Ball spéciale utilisée au
+Parc des Amis."
+"Scarhinoïte";"https://www.pokemontrash.com/pokedex/images/items/heracronite.png";"Une variété de Méga-Gemme.
+Tenue par un Scarhino, elle lui permet de
+méga-évoluer durant un combat."
+"Pharampite";"https://www.pokemontrash.com/pokedex/images/items/ampharosite.png";"Une variété de Méga-Gemme.
+Tenue par un Pharamp, elle lui permet de
+méga-évoluer durant un combat."
+"Tyranocivite";"https://www.pokemontrash.com/pokedex/images/items/tyranitarite.png";"Une variété de Méga-Gemme.
+Tenue par un Tyranocif, elle lui permet de
+méga-évoluer durant un combat."
+"Branettite";"https://www.pokemontrash.com/pokedex/images/items/banettite.png";"Une variété de Méga-Gemme.
+Tenue par un Branette, elle lui permet de
+méga-évoluer durant un combat."
+"Galekingite";"https://www.pokemontrash.com/pokedex/images/items/aggronite.png";"Une variété de Méga-Gemme.
+Tenue par un Galeking, elle lui permet de
+méga-évoluer durant un combat."
+"Démolossite";"https://www.pokemontrash.com/pokedex/images/items/houndoominite.png";"Une variété de Méga-Gemme.
+Tenue par un Démolosse, elle lui permet de
+méga-évoluer durant un combat."
+"Braségalite";"https://www.pokemontrash.com/pokedex/images/items/blazikenite.png";"Une variété de Méga-Gemme.
+Tenue par un Braségali, elle lui permet de
+méga-évoluer durant un combat."
+"Charminite";"https://www.pokemontrash.com/pokedex/images/items/medichamite.png";"Une variété de Méga-Gemme.
+Tenue par un Charmina, elle lui permet de
+méga-évoluer durant un combat."
+"Mewtwoïte Y";"https://www.pokemontrash.com/pokedex/images/items/mewtwonite-y.png";"Une variété de Méga-Gemme.
+Tenue par un Mewtwo, elle lui permet de
+méga-évoluer durant un combat."
+"Mewtwoïte X";"https://www.pokemontrash.com/pokedex/images/items/mewtwonite-x.png";"Une variété de Méga-Gemme.
+Tenue par un Mewtwo, elle lui permet de
+méga-évoluer durant un combat."
+"Tortankite";"https://www.pokemontrash.com/pokedex/images/items/blastoisinite.png";"Une variété de Méga-Gemme.
+Tenue par un Tortank, elle lui permet de
+méga-évoluer durant un combat."
+"Dracaufite X";"https://www.pokemontrash.com/pokedex/images/items/charizardite-x.png";"Une variété de Méga-Gemme.
+Tenue par un Dracaufeu, elle lui permet de
+méga-évoluer durant un combat."
+"Florizarrite";"https://www.pokemontrash.com/pokedex/images/items/venusaurite.png";"Une variété de Méga-Gemme.
+Tenue par un Florizarre, elle lui permet de
+méga-évoluer durant un combat."
+"Cizayoxite";"https://www.pokemontrash.com/pokedex/images/items/scizorite.png";"Une variété de Méga-Gemme.
+Tenue par un Cizayox, elle lui permet de
+méga-évoluer durant un combat."
+"Scarabruite";"https://www.pokemontrash.com/pokedex/images/items/pinsirite.png";"Une variété de Méga-Gemme.
+Tenue par un Scarabrute, elle lui permet de
+méga-évoluer durant un combat."
+"Ptéraïte";"https://www.pokemontrash.com/pokedex/images/items/aerodactylite.png";"Une variété de Méga-Gemme.
+Tenue par un Ptéra, elle lui permet de
+méga-évoluer durant un combat."
+"Mysdibulite";"https://www.pokemontrash.com/pokedex/images/items/mawilite.png";"Une variété de Méga-Gemme.
+Tenue par un Mysdibule, elle lui permet de
+méga-évoluer durant un combat."
+"Élecsprintite";"https://www.pokemontrash.com/pokedex/images/items/manectite.png";"Une variété de Méga-Gemme.
+Tenue par un Élecsprint, elle lui permet de
+méga-évoluer durant un combat."
+"Carchacrokite";"https://www.pokemontrash.com/pokedex/images/items/garchompite.png";"Une variété de Méga-Gemme.
+Tenue par un Carchacrok, elle lui permet de
+méga-évoluer durant un combat."
+"Ectoplasmite";"https://www.pokemontrash.com/pokedex/images/items/gengarite.png";"Une variété de Méga-Gemme.
+Tenue par un Ectoplasma, elle lui permet de
+méga-évoluer durant un combat."
+"Dracaufite Y";"https://www.pokemontrash.com/pokedex/images/items/charizardite-y.png";"Une variété de Méga-Gemme.
+Tenue par un Dracaufeu, elle lui permet de
+méga-évoluer durant un combat."
+"Absolite";"https://www.pokemontrash.com/pokedex/images/items/absolite.png";"Une variété de Méga-Gemme.
+Tenue par un Absol, elle lui permet de
+méga-évoluer durant un combat."
+"Alakazamite";"https://www.pokemontrash.com/pokedex/images/items/alakazite.png";"Une variété de Méga-Gemme.
+Tenue par un Alakazam, elle lui permet de
+méga-évoluer durant un combat."
+"Léviatorite";"https://www.pokemontrash.com/pokedex/images/items/gyaradosite.png";"Une variété de Méga-Gemme.
+Tenue par un Léviator, elle lui permet de
+méga-évoluer durant un combat."
+"Kangourexite";"https://www.pokemontrash.com/pokedex/images/items/kangaskhanite.png";"Une variété de Méga-Gemme.
+Tenue par un Kangourex, elle lui permet de
+méga-évoluer durant un combat."
+"Gardevoirite";"https://www.pokemontrash.com/pokedex/images/items/gardevoirite.png";"Une variété de Méga-Gemme.
+Tenue par un Gardevoir, elle lui permet de
+méga-évoluer durant un combat."
+"Blizzarite";"https://www.pokemontrash.com/pokedex/images/items/abomasite.png";"Une variété de Méga-Gemme.
+Tenue par un Blizzaroi, elle lui permet de
+méga-évoluer durant un combat."
+"Lucarite";"https://www.pokemontrash.com/pokedex/images/items/lucarionite.png";"Une variété de Méga-Gemme.
+Tenue par un Lucario, elle lui permet de
+méga-évoluer durant un combat."
+"Bibelot Bizarre";"https://www.pokemontrash.com/pokedex/images/items/strange-souvenir.png";"Un ornement bizarre à l'image d'un Pokémon
+vénéré comme protecteur dans une région
+éloignée de Kalos."
+"Bon de Réduction";"https://www.pokemontrash.com/pokedex/images/items/bargain-ticket.png";"Un ticket donnant droit à une réduction
+dans les boutiques de vêtements."
