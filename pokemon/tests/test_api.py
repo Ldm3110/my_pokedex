@@ -4,7 +4,7 @@ from rest_framework import status
 from rest_framework.test import APIClient
 
 from ..models import Pokemon
-from ..serializers import PokemonSerializer
+from ..serializers import PokemonSerializer, PokemonDetailsSerializer
 
 pytestmark = pytest.mark.django_db
 
@@ -19,18 +19,18 @@ def test_listing_pokemons(user_log, client_log, pokemon_factory):
 
     # Unauthenticated user should be denied access
     res = APIClient().get(reverse("pokemon:pokemon-list"))
-    assert res.status_code == status.HTTP_403_FORBIDDEN
+    assert res.status_code == status.HTTP_401_UNAUTHORIZED
 
     # Authenticated user should be given access
     res = client_log.get(reverse("pokemon:pokemon-list"))
     assert res.status_code == status.HTTP_200_OK
 
-    pokemons = Pokemon.objects.all()
+    pokemons = Pokemon.objects.filter(trainer=user_log.id)
     serializer = PokemonSerializer(pokemons, many=True)
 
     assert res.status_code == status.HTTP_200_OK
-    assert len(serializer.data) == 3
-    assert serializer.data == res.data.get("results")
+    assert len(serializer.data) == 1
+    assert serializer.data == res.data.get('results')
 
 
 def test_view_pokemon_detail(user_log, client_log, pokemon_factory):
@@ -42,13 +42,13 @@ def test_view_pokemon_detail(user_log, client_log, pokemon_factory):
 
     # Unauthenticated user should be denied access
     res = APIClient().get(reverse("pokemon:pokemon-detail", args=[pokemon.id]))
-    assert res.status_code == status.HTTP_403_FORBIDDEN
+    assert res.status_code == status.HTTP_401_UNAUTHORIZED
 
     # Authenticated user should be given access
     res = client_log.get(reverse("pokemon:pokemon-detail", args=[pokemon.id]))
     assert res.status_code == status.HTTP_200_OK
 
-    serializer = PokemonSerializer(pokemon)
+    serializer = PokemonDetailsSerializer(pokemon)
 
     assert res.status_code == status.HTTP_200_OK
     assert serializer.data == res.data
@@ -134,7 +134,8 @@ def test_delete_pokemon(client_log, pokemon_factory):
     """Authenticated user can delete an existing pokermon"""
     pokemon = pokemon_factory()
 
-    res = client_log.delete(reverse("pokemon:pokemon-detail", args=[pokemon.id]))
+    res = client_log.delete(
+        reverse("pokemon:pokemon-detail", args=[pokemon.id]))
     assert res.status_code == status.HTTP_204_NO_CONTENT
 
     assert not Pokemon.objects.filter(id=pokemon.id).exists()
@@ -172,7 +173,11 @@ def test_give_xp_to_pokemon_invalid_request(client_log, pokemon_factory):
         payload,
     )
     assert res.status_code == status.HTTP_400_BAD_REQUEST
-    assert res.data == {"amount": "invalid literal for int() with base 10: 'Hello'"}
+    assert res.data == {
+        'amount': [
+            'A valid integer is required.'
+        ]
+    }
 
     payload = {
         "attack": 100,
@@ -182,4 +187,8 @@ def test_give_xp_to_pokemon_invalid_request(client_log, pokemon_factory):
         payload,
     )
     assert res.status_code == status.HTTP_400_BAD_REQUEST
-    assert res.data == {"reason": "Bad request"}
+    assert res.data == {
+        "amount": [
+            "This field is required."
+        ]
+    }
