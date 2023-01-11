@@ -39,7 +39,6 @@ class Command(BaseCommand):
                     for row in reader
                 ]
 
-                print(f"\n{len(obj)}\n")
                 FavObject.objects.bulk_create(
                     obj,
                     batch_size=100,
