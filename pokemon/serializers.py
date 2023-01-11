@@ -1,6 +1,7 @@
 from rest_framework import serializers
 
 from .models import Pokemon
+from .models import FavObject
 from authentication.serializers import UserSerializer
 from pokedex.serializers import PokedexCreatureDetailSerializer
 
@@ -50,3 +51,9 @@ class PokemonGiveXPSerializer(serializers.Serializer):
     """Serializer of give-xp endpoint"""
 
     amount = serializers.IntegerField(min_value=0)
+
+
+class FavoriteObjectSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = FavObject
+        fields = '__all__'
