@@ -4,6 +4,15 @@ from django.db import models
 from pokedex.models import PokedexCreature
 
 
+class FavObject(models.Model):
+    name = models.CharField(max_length=50)
+    img_uri = models.URLField()
+    description = models.TextField(max_length=250)
+
+    def __str__(self) -> str:
+        return f"{self.name}"
+
+
 class Pokemon(models.Model):
     """Pokemon object"""
 
