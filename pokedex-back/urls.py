@@ -7,6 +7,8 @@ from drf_spectacular.views import SpectacularAPIView
 from drf_spectacular.views import SpectacularRedocView
 from drf_spectacular.views import SpectacularSwaggerView
 
+from pokemon.views import FavObjectViewSet
+
 
 urlpatterns = [
     path("admin/", admin.site.urls),
@@ -23,6 +25,8 @@ urlpatterns = [
     ),
     path("", lambda r: redirect("api/swagger/")),
     path("pokedex/", include("pokedex.urls")),
+    path("pokemon/favobjects/",
+         FavObjectViewSet.as_view({'get': 'list'})),
 ]
 
 if "pokemon" in settings.INSTALLED_APPS:
