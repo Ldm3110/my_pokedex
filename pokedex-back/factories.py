@@ -65,6 +65,7 @@ class UserFactory(DjangoModelFactory):
 
 
 class FavObjectFactory(DjangoModelFactory):
+    """ Generate a favorite object for pokemon """
     class Meta:
         model = FavObject
 
