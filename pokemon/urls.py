@@ -13,6 +13,6 @@ router.register("", PokemonViewSet, basename="pokemon")
 
 urlpatterns = [
     path("", include(router.urls)),
-    path("favobjects/<int:pk>",
+    path("object/<int:pk>",
          FavObjectViewSet.as_view({'get': 'retrieve'}), name='favobject-id'),
 ]
