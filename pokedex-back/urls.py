@@ -25,7 +25,7 @@ urlpatterns = [
     ),
     path("", lambda r: redirect("api/swagger/")),
     path("pokedex/", include("pokedex.urls")),
-    path("pokemon/favobjects/",
+    path("pokemon/object/",
          FavObjectViewSet.as_view({'get': 'list'}), name="favobject-list"),
 ]
 
