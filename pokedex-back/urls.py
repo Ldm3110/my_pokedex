@@ -26,7 +26,7 @@ urlpatterns = [
     path("", lambda r: redirect("api/swagger/")),
     path("pokedex/", include("pokedex.urls")),
     path("pokemon/favobjects/",
-         FavObjectViewSet.as_view({'get': 'list'})),
+         FavObjectViewSet.as_view({'get': 'list'}), name="favobject-list"),
 ]
 
 if "pokemon" in settings.INSTALLED_APPS:
