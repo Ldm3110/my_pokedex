@@ -82,5 +82,5 @@ class FavObjectViewSet(ReadOnlyModelViewSet):
     permission_classes = [IsAuthenticated, ]
     serializer_class = FavoriteObjectSerializer
     queryset = FavObject.objects.all()
-    filter_backends = (filters.SearchFilter,)
+    filter_backends = [filters.SearchFilter,]
     search_fields = ['name',]
