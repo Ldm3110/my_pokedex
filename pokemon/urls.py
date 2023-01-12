@@ -8,13 +8,11 @@ app_name = "pokemon"
 
 router = DefaultRouter()
 router.register("", PokemonViewSet, basename="pokemon")
+# router.register("object", FavObjectViewSet, basename="favobject") list and retrieve with search doesn't work
 
 
 urlpatterns = [
     path("", include(router.urls)),
     path("favobjects/<int:pk>",
          FavObjectViewSet.as_view({'get': 'retrieve'}), name='favobject-id'),
-    path("favobjects/<str:name>",
-         FavObjectViewSet.as_view({'get': 'retrieve'}), name='favobject-name'),
-    
 ]
