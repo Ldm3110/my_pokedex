@@ -8,6 +8,7 @@ from pytest_factoryboy import register
 
 from pokedex.models import PokedexCreature
 from pokemon.models import Pokemon
+from pokemon.models import FavObject
 
 User = get_user_model()
 DEFAULT_PASSWORD = "secretpassword"
@@ -63,6 +64,16 @@ class UserFactory(DjangoModelFactory):
         obj.save()
 
 
+class FavObjectFactory(DjangoModelFactory):
+    class Meta:
+        model = FavObject
+
+    name = factory.Sequence(lambda n: f"Objet {n + 1}")
+    img_uri = factory.Sequence(lambda n: f"https://www.object{n + 1}.com/")
+    description = "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+
+
+register(FavObjectFactory)
 register(PokedexCreatureFactory)
 register(PokemonFactory)
 register(UserFactory)
