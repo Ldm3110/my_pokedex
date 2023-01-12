@@ -36,6 +36,13 @@ class Pokemon(models.Model):
 
     level = models.PositiveSmallIntegerField(default=1)
     experience = models.PositiveIntegerField(default=0)
+    favorite_object = models.ForeignKey(
+        FavObject,
+        on_delete=models.CASCADE,
+        blank=False,
+        null=False,
+        default=FavObject.objects.order_by('?').first().pk
+    )
 
     def clean(self):
         """
