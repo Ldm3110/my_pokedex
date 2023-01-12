@@ -35,6 +35,16 @@ class PokedexCreatureFactory(DjangoModelFactory):
     legendary = False
 
 
+class FavObjectFactory(DjangoModelFactory):
+    """ Generate a favorite object for pokemon """
+    class Meta:
+        model = FavObject
+
+    name = factory.Sequence(lambda n: f"Objet {n + 1}")
+    img_uri = factory.Sequence(lambda n: f"https://www.object{n + 1}.com/")
+    description = "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+
+
 class PokemonFactory(DjangoModelFactory):
     """Generator of PokedexCreature objects"""
 
@@ -44,6 +54,7 @@ class PokemonFactory(DjangoModelFactory):
     pokedex_creature = factory.SubFactory(PokedexCreatureFactory)
     level = 1
     experience = 0
+    favorite_object = factory.SubFactory(FavObjectFactory)
 
     @factory.post_generation
     def clean(obj, create, extracted, **kwargs):
@@ -62,16 +73,6 @@ class UserFactory(DjangoModelFactory):
     def set_password(obj, create, extracted, **kwargs):
         obj.set_password(DEFAULT_PASSWORD)
         obj.save()
-
-
-class FavObjectFactory(DjangoModelFactory):
-    """ Generate a favorite object for pokemon """
-    class Meta:
-        model = FavObject
-
-    name = factory.Sequence(lambda n: f"Objet {n + 1}")
-    img_uri = factory.Sequence(lambda n: f"https://www.object{n + 1}.com/")
-    description = "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
 
 
 register(FavObjectFactory)
