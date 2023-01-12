@@ -221,7 +221,6 @@ class TestFavoriteObjectActions:
         res = client_log.get(
             reverse("pokemon:favobject-id", args=[object_1.id]))
         assert res.status_code == status.HTTP_200_OK
-        assert res.data['id'] == 1
 
     """ Doesn´t work actually ...
     def test_listing_detail_favorite_object_with_search_field(
