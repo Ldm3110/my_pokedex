@@ -192,3 +192,29 @@ def test_give_xp_to_pokemon_invalid_request(client_log, pokemon_factory):
             "This field is required."
         ]
     }
+
+
+def test_listing_favorite_object(user_log, client_log):
+    # Unauthenticated user should be denied access
+    res = APIClient().get(reverse("favobject-list"))
+    assert res.status_code == status.HTTP_401_UNAUTHORIZED
+
+    # Authenticated user should be given access
+    res = client_log.get(reverse("favobject-list"))
+    assert res.status_code == status.HTTP_200_OK
+
+
+def test_listing_detail_favorite_object_with_id(user_log, client_log, fav_object_factory):
+
+    # Create 2 favorite object
+    object_1 = fav_object_factory()
+    fav_object_factory()
+
+    # Unauthenticated user should be denied access
+    res = APIClient().get(reverse("pokemon:favobject-id", args=[object_1.id]))
+    assert res.status_code == status.HTTP_401_UNAUTHORIZED
+
+    # Authenticated user should be given access
+    res = client_log.get(reverse("pokemon:favobject-id", args=[object_1.id]))
+    assert res.status_code == status.HTTP_200_OK
+    assert res.data['id'] == 1
