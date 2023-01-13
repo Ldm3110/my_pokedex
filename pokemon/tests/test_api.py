@@ -66,7 +66,6 @@ class TestPokemonActions:
         """Authenticated user can create a pokermon"""
         creature = pokedex_creature_factory(name="Brown Bear")
         pokemon_factory()
-        pokemon_factory()
 
         # Create a trained pokemon
         payload = {
@@ -192,7 +191,7 @@ class TestPokemonActions:
         }
 
 
-class TestFavoriteObjectActions:
+class TestFavoriteOjbectActions:
     def test_listing_favorite_object(self, user_log, client_log):
         # Unauthenticated user should be denied access
         res = APIClient().get(reverse("favobject-list"))
@@ -221,6 +220,17 @@ class TestFavoriteObjectActions:
         res = client_log.get(
             reverse("pokemon:favobject-id", args=[object_1.id]))
         assert res.status_code == status.HTTP_200_OK
+
+    def test_creation_favorite_object_impossible(
+        self,
+        client_log,
+    ):
+
+        res = client_log.post(reverse(
+            "favobject-list",
+        ))
+
+        assert res.status_code == status.HTTP_405_METHOD_NOT_ALLOWED
 
     """ Doesn´t work actually ...
     def test_listing_detail_favorite_object_with_search_field(
