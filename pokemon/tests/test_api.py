@@ -108,6 +108,22 @@ class TestPokemonActions:
         pokemon.refresh_from_db()
         assert pokemon.nickname == payload["nickname"]
 
+    def test_partial_update_favorite_object_pokemon(
+        self,
+        client_log,
+        pokemon_factory
+    ):
+        """Authenticated user can update an existing pokemon with patch"""
+        pokemon = pokemon_factory()
+        payload = {"nickname": "Monster king"}
+        res = client_log.patch(
+            reverse("pokemon:pokemon-detail", args=[pokemon.id]),
+            payload,
+        )
+        assert res.status_code == status.HTTP_200_OK
+        pokemon.refresh_from_db()
+        assert pokemon.nickname == payload["nickname"]
+
     def test_full_update_pokemon(
         self, client_log, user_log, pokedex_creature_factory, pokemon_factory
     ):
@@ -232,24 +248,24 @@ class TestFavoriteOjbectActions:
 
         assert res.status_code == status.HTTP_405_METHOD_NOT_ALLOWED
 
-    """ Doesn´t work actually ...
     def test_listing_detail_favorite_object_with_search_field(
         self,
         client_log,
-        user_log,
         fav_object_factory
     ):
         # create an object
         obj = fav_object_factory()
-        print(obj)
-        karg = {"search": obj.name}
-        
+        payload = {
+            "search": obj.name
+        }
+
         # Unauthenticated user should be denied access
         res = APIClient().get(
-            reverse("favobject-list", kwargs=karg))
+            reverse("favobject-list"),
+            payload)
         assert res.status_code == status.HTTP_401_UNAUTHORIZED
-        
         # Authenticated user should be given access
         res = client_log.get(
-            reverse("favobject-list", kwargs=karg))
-        assert res.status_code == status.HTTP_200_OK """
+            reverse("favobject-list"),
+            payload)
+        assert res.status_code == status.HTTP_200_OK
