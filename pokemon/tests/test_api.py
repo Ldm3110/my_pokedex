@@ -10,6 +10,9 @@ pytestmark = pytest.mark.django_db
 
 
 class TestPokemonActions:
+    pokemon_list = "pokemon-list"
+    pokemon_detail = "pokemon-detail"
+    pokemon_give_xp = "pokemon-give-xp"
 
     def test_listing_pokemons(self, user_log, client_log, pokemon_factory):
         """Test listing Pokedex creatures."""
@@ -20,11 +23,11 @@ class TestPokemonActions:
         pokemon_factory()
 
         # Unauthenticated user should be denied access
-        res = APIClient().get(reverse("pokemon:pokemon-list"))
+        res = APIClient().get(reverse(self.pokemon_list))
         assert res.status_code == status.HTTP_401_UNAUTHORIZED
 
         # Authenticated user should be given access
-        res = client_log.get(reverse("pokemon:pokemon-list"))
+        res = client_log.get(reverse(self.pokemon_list))
         assert res.status_code == status.HTTP_200_OK
 
         pokemons = Pokemon.objects.filter(trainer=user_log.id)
@@ -43,12 +46,12 @@ class TestPokemonActions:
 
         # Unauthenticated user should be denied access
         res = APIClient().get(
-            reverse("pokemon:pokemon-detail", args=[pokemon.id]))
+            reverse(self.pokemon_detail, args=[pokemon.id]))
         assert res.status_code == status.HTTP_401_UNAUTHORIZED
 
         # Authenticated user should be given access
         res = client_log.get(
-            reverse("pokemon:pokemon-detail", args=[pokemon.id]))
+            reverse(self.pokemon_detail, args=[pokemon.id]))
         assert res.status_code == status.HTTP_200_OK
 
         serializer = PokemonDetailsSerializer(pokemon)
@@ -74,7 +77,7 @@ class TestPokemonActions:
             "nickname": "Gozilla",
         }
         res = client_log.post(
-            reverse("pokemon:pokemon-list"),
+            reverse(self.pokemon_list),
             payload,
         )
         assert res.status_code == status.HTTP_201_CREATED
@@ -88,7 +91,7 @@ class TestPokemonActions:
             "pokedex_creature": creature.id,
         }
         res = client_log.post(
-            reverse("pokemon:pokemon-list"),
+            reverse(self.pokemon_list),
             payload,
         )
         assert res.status_code == status.HTTP_201_CREATED
@@ -101,7 +104,7 @@ class TestPokemonActions:
         pokemon = pokemon_factory(nickname="Lion")
         payload = {"nickname": "Monster king"}
         res = client_log.patch(
-            reverse("pokemon:pokemon-detail", args=[pokemon.id]),
+            reverse(self.pokemon_detail, args=[pokemon.id]),
             payload,
         )
         assert res.status_code == status.HTTP_200_OK
@@ -117,7 +120,7 @@ class TestPokemonActions:
         pokemon = pokemon_factory()
         payload = {"nickname": "Monster king"}
         res = client_log.patch(
-            reverse("pokemon:pokemon-detail", args=[pokemon.id]),
+            reverse(self.pokemon_detail, args=[pokemon.id]),
             payload,
         )
         assert res.status_code == status.HTTP_200_OK
@@ -136,7 +139,7 @@ class TestPokemonActions:
             "pokedex_creature": creature.id,
         }
         res = client_log.put(
-            reverse("pokemon:pokemon-detail", args=[pokemon.id]),
+            reverse(self.pokemon_detail, args=[pokemon.id]),
             payload,
         )
         assert res.status_code == status.HTTP_200_OK
@@ -150,7 +153,7 @@ class TestPokemonActions:
         pokemon = pokemon_factory()
 
         res = client_log.delete(
-            reverse("pokemon:pokemon-detail", args=[pokemon.id]))
+            reverse(self.pokemon_detail, args=[pokemon.id]))
         assert res.status_code == status.HTTP_204_NO_CONTENT
 
         assert not Pokemon.objects.filter(id=pokemon.id).exists()
@@ -163,7 +166,7 @@ class TestPokemonActions:
             "amount": 150,
         }
         res = client_log.post(
-            reverse("pokemon:pokemon-give-xp", args=[pokemon.id]),
+            reverse(self.pokemon_give_xp, args=[pokemon.id]),
             payload,
         )
         assert res.status_code == status.HTTP_200_OK
@@ -182,7 +185,7 @@ class TestPokemonActions:
             "amount": "Hello",
         }
         res = client_log.post(
-            reverse("pokemon:pokemon-give-xp", args=[pokemon.id]),
+            reverse(self.pokemon_give_xp, args=[pokemon.id]),
             payload,
         )
         assert res.status_code == status.HTTP_400_BAD_REQUEST
@@ -196,7 +199,7 @@ class TestPokemonActions:
             "attack": 100,
         }
         res = client_log.post(
-            reverse("pokemon:pokemon-give-xp", args=[pokemon.id]),
+            reverse(self.pokemon_give_xp, args=[pokemon.id]),
             payload,
         )
         assert res.status_code == status.HTTP_400_BAD_REQUEST
@@ -208,13 +211,16 @@ class TestPokemonActions:
 
 
 class TestFavoriteOjbectActions:
+    favobject_list = "favobject-list"
+    favobject_detail = "favobject-detail"
+
     def test_listing_favorite_object(self, user_log, client_log):
         # Unauthenticated user should be denied access
-        res = APIClient().get(reverse("favobject-list"))
+        res = APIClient().get(reverse(self.favobject_list))
         assert res.status_code == status.HTTP_401_UNAUTHORIZED
 
         # Authenticated user should be given access
-        res = client_log.get(reverse("favobject-list"))
+        res = client_log.get(reverse(self.favobject_list))
         assert res.status_code == status.HTTP_200_OK
 
     def test_listing_detail_favorite_object_with_id(
@@ -229,12 +235,12 @@ class TestFavoriteOjbectActions:
 
         # Unauthenticated user should be denied access
         res = APIClient().get(
-            reverse("pokemon:favobject-id", args=[object_1.id]))
+            reverse(self.favobject_detail, args=[object_1.id]))
         assert res.status_code == status.HTTP_401_UNAUTHORIZED
 
         # Authenticated user should be given access
         res = client_log.get(
-            reverse("pokemon:favobject-id", args=[object_1.id]))
+            reverse(self.favobject_detail, args=[object_1.id]))
         assert res.status_code == status.HTTP_200_OK
 
     def test_creation_favorite_object_impossible(
@@ -243,7 +249,7 @@ class TestFavoriteOjbectActions:
     ):
 
         res = client_log.post(reverse(
-            "favobject-list",
+            self.favobject_list,
         ))
 
         assert res.status_code == status.HTTP_405_METHOD_NOT_ALLOWED
@@ -261,11 +267,11 @@ class TestFavoriteOjbectActions:
 
         # Unauthenticated user should be denied access
         res = APIClient().get(
-            reverse("favobject-list"),
+            reverse(self.favobject_list),
             payload)
         assert res.status_code == status.HTTP_401_UNAUTHORIZED
         # Authenticated user should be given access
         res = client_log.get(
-            reverse("favobject-list"),
+            reverse(self.favobject_list),
             payload)
         assert res.status_code == status.HTTP_200_OK
