@@ -54,9 +54,11 @@ class PokemonViewSet(ModelViewSet):
             return PokemonGiveXPSerializer
 
         return PokemonSerializer
-    
+
     def perform_create(self, serializer):
-        serializer.save(favorite_object=FavObject.objects.order_by('?').first())
+        serializer.save(
+            favorite_object=FavObject.objects.order_by('?').first())
+
     @action(methods=["POST"], detail=True, url_path="give_xp")
     @extend_schema(responses=PokemonSerializer)
     def give_xp(self, request, pk=None):
