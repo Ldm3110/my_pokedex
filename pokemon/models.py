@@ -2,6 +2,7 @@ from django.conf import settings
 from django.db import models
 
 from pokedex.models import PokedexCreature
+from poketeam.models import Poketeam
 
 
 class FavObject(models.Model):
@@ -46,6 +47,13 @@ class Pokemon(models.Model):
         blank=False,
         null=False,
         default=FavObject.objects.order_by('?').first().pk
+    )
+    team = models.ForeignKey(
+        Poketeam,
+        related_name="pokemon",
+        on_delete=models.PROTECT,
+        blank=True,
+        null=True
     )
 
     def clean(self):
