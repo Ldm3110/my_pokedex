@@ -30,3 +30,6 @@ if "pokemon" in settings.INSTALLED_APPS:
 
 if "authentication" in settings.INSTALLED_APPS:
     urlpatterns.append(path("", include("authentication.urls")))
+
+if "poketeam" in settings.INSTALLED_APPS:
+    urlpatterns.append(path("poketeam/", include("poketeam.urls")))
