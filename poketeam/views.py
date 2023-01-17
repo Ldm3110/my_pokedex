@@ -12,9 +12,7 @@ class PoketeamViewSet(ModelViewSet):
     serializer_class = PoketeamSerializer
 
     def get_queryset(self):
-        print("def get_queryset")
         qs = Poketeam.objects.filter(trainer=self.request.user.id)
-        print(qs)
         return qs
 
     def get_serializer_class(self):
@@ -26,8 +24,6 @@ class PoketeamViewSet(ModelViewSet):
         return PoketeamSerializer
 
     def perform_create(self, serializer):
-        print(serializer)
-        print(self.request)
         return serializer.save(trainer=self.request.user)
 
     # @action(methods=['UPDATE'], detail=True, url_path="add-pokemon")
