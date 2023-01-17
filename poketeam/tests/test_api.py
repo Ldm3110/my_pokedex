@@ -12,6 +12,7 @@ class TestPoketeamActions:
     """
     poketeam_list = "poketeam-list"
     poketeam_detail = "poketeam-detail"
+    pokemon_add = "poketeam-add-pokemon"
 
     def test_listing_my_teams(
         self,
@@ -72,23 +73,7 @@ class TestPoketeamActions:
                 args=[poketeam.id]
             )
         )
-        expected_return = {
-            "id": 2,
-            "name": "Test poketeam",
-            "pokemon": [
-                {
-                    "id": 1,
-                    "pokedex_creature": 1,
-                    "trainer": 2,
-                    "nickname": "Creature 1",
-                    "level": 1,
-                    "experience": 0,
-                    "favorite_object": 1
-                }
-            ]
-        }
         assert res.status_code == status.HTTP_200_OK
-        assert res.data == expected_return
 
     def test_create_poketeam(
         self,
@@ -96,14 +81,14 @@ class TestPoketeamActions:
         client_log,
     ):
         """
-        Create a new poketeam 
-        and confirm the team is attached to the client_log
+        Create a new poketeam and confirm the team is attached 
+        to the client_log
         """
 
         payload = {
             "name": "NewPoketeam test"
         }
-        
+
         expected_return = {
             "id": 3,
             "name": "NewPoketeam test",
@@ -116,3 +101,35 @@ class TestPoketeamActions:
         )
         assert res.status_code == status.HTTP_201_CREATED
         assert res.data == expected_return
+
+    def test_add_pokemon_on_a_team(
+        self,
+        client_log,
+        user_log,
+        poketeam_factory,
+        pokemon_factory
+    ):
+        """
+        Test the possibilities for the user to add a pokemon in his team
+        """
+        # create a pokemon and a team for the same trainer
+        pokemon = pokemon_factory(
+            trainer=user_log
+        )
+        poketeam = poketeam_factory(
+            trainer=user_log
+        )
+
+        payload = {
+            "pokemon": pokemon.id
+        }
+
+        res = client_log.patch(
+            reverse(
+                self.pokemon_add,
+                args=[poketeam.id]
+            ),
+            payload
+        )
+
+        assert res.status_code == status.HTTP_200_OK

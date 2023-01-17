@@ -1,3 +1,4 @@
+from rest_framework import serializers
 from rest_framework.serializers import ModelSerializer, RelatedField
 
 from .models import Poketeam
@@ -17,13 +18,13 @@ class PoketeamListSerializer(ModelSerializer):
     class Meta:
         model = Poketeam
         fields = ['id', ]
-        
+
 
 class PokemonListingField(RelatedField):
     def to_representation(self, value):
         serialized_data = PokemonSerializer(value)
         return serialized_data.data
-        
+
 
 class PoketeamDetailSerializer(ModelSerializer):
     pokemon = PokemonListingField(many=True, read_only=True)
@@ -35,3 +36,7 @@ class PoketeamDetailSerializer(ModelSerializer):
             'name',
             'pokemon'
         ]
+
+
+class AddOrRemovePokemonFromTeamSerializer(serializers.Serializer):
+    pokemon = serializers.IntegerField(min_value=1)
