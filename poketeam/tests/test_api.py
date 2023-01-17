@@ -96,7 +96,8 @@ class TestPoketeamActions:
         client_log,
     ):
         """
-        Create a new poketeam and confirm the team is attached to the client_log
+        Create a new poketeam 
+        and confirm the team is attached to the client_log
         """
 
         payload = {
@@ -114,4 +115,4 @@ class TestPoketeamActions:
             payload
         )
         assert res.status_code == status.HTTP_201_CREATED
-        assert res.data== expected_return
+        assert res.data == expected_return
