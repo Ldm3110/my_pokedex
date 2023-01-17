@@ -72,7 +72,6 @@ class TestPoketeamActions:
                 args=[poketeam.id]
             )
         )
-        print(res.data)
         expected_return = {
             "id": 2,
             "name": "Test poketeam",
@@ -90,3 +89,29 @@ class TestPoketeamActions:
         }
         assert res.status_code == status.HTTP_200_OK
         assert res.data == expected_return
+
+    def test_create_poketeam(
+        self,
+        user_log,
+        client_log,
+    ):
+        """
+        Create a new poketeam and confirm the team is attached to the client_log
+        """
+
+        payload = {
+            "name": "NewPoketeam test"
+        }
+        
+        expected_return = {
+            "id": 3,
+            "name": "NewPoketeam test",
+            "trainer": user_log.id,
+        }
+
+        res = client_log.post(
+            reverse(self.poketeam_list),
+            payload
+        )
+        assert res.status_code == status.HTTP_201_CREATED
+        assert res.data== expected_return
