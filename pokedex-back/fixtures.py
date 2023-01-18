@@ -17,3 +17,11 @@ def client_log(user_log):
     client_log.force_authenticate(user_log)
 
     return client_log
+
+
+@pytest.fixture
+def other_user_log(user_factory):
+    """
+    Return other user
+    """
+    return user_factory(username="macha")

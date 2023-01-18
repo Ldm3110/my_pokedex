@@ -9,7 +9,7 @@ class FavObject(models.Model):
     name = models.CharField(max_length=50)
     img_uri = models.URLField()
     description = models.TextField(max_length=250)
-    
+
     class Meta:
         verbose_name = "Favorite Object"
         verbose_name_plural = "Favorite Objects"
@@ -83,4 +83,12 @@ class Pokemon(models.Model):
         """
         self.experience += amount
         self.level = 1 + self.experience // 100
+        self.save()
+
+    def add_in_team(self, team: Poketeam):
+        self.team = team
+        self.save()
+
+    def remove_from_team(self, team: Poketeam):
+        self.team = None
         self.save()
