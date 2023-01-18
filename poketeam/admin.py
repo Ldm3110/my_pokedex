@@ -1,3 +1,10 @@
 from django.contrib import admin
 
-# Register your models here.
+from .models import Poketeam
+
+
+class PoketeamAdmin(admin.ModelAdmin):
+    model = Poketeam
+
+
+admin.register(PoketeamAdmin, Poketeam)
