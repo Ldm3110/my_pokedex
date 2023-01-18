@@ -46,17 +46,36 @@ class PoketeamViewSet(ModelViewSet):
             self.request,
             pokemon
         )
-        pokemon.team = poketeam
+        pokemon.add_in_team(poketeam)
         pokemon.save()
         return Response(
             {
                 "success":
                     f"the pokemon {pokemon} has been"
-                    "added on the team {poketeam}",
+                    " added on the team {poketeam}",
             },
             status=status.HTTP_200_OK
         )
 
-    # @action(methods=['DELETE'], detail=True)
-    # def remove_pokemon(self, request, pk=None):
-    #     return
+    @action(methods=['PATCH'], detail=True)
+    def remove_pokemon(self, request, pk=None):
+        poketeam = self.get_object()
+        serializer = AddOrRemovePokemonFromTeamSerializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        pokemon = Pokemon.objects.get(
+            pk=serializer.validated_data['pokemon']
+        )
+        self.check_object_permissions(
+            self.request,
+            pokemon
+        )
+        pokemon.remove_from_team(poketeam)
+        pokemon.save()
+        return Response(
+            {
+                "success":
+                    f"the pokemon {pokemon} has been"
+                    " removed from the team {poketeam}",
+            },
+            status=status.HTTP_200_OK
+        )
