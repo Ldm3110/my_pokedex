@@ -19,18 +19,22 @@ from .serializers import FavoriteObjectSerializer
 
 @extend_schema_view(
     create=extend_schema(
-        description="API endpoint to create a pokemon\n\nSome fields are optionnal : trainer, nickname, level, experience"
+        description="API endpoint to create a pokemon\n\n"
+        "Some fields are optionnal : trainer, nickname, level, experience"
     ),
     list=extend_schema(
-        description="API endpoint to get a list of pokemons, with filtering options"
+        description="API endpoint to get a list of pokemons,"
+        "with filtering options"
     ),
     retrieve=extend_schema(
-        description="API endpoint to retrieve a specific pokemon, which gives on him detailed informations"
+        description="API endpoint to retrieve a specific pokemon,"
+        "which gives on him detailed informations"
     ),
     update=extend_schema(
         description="API endpoint to modify a specific pokemon"),
     partial_update=extend_schema(
-        description="API endpoint to partially modify a specific pokemon\n\nAll fields are optionnal"
+        description="API endpoint to partially modify a specific pokemon\n\n"
+        "All fields are optionnal"
     ),
     destroy=extend_schema(
         description="API endpoint to delete a specific pokemon. It's horrible"
@@ -76,7 +80,8 @@ class PokemonViewSet(ModelViewSet):
 
 @extend_schema_view(
     list=extend_schema(
-        description="API endpoint to get a list of favorite object for your pokemon"
+        description="API endpoint to get a list of favorite object"
+        "for your pokemon"
     ),
     retrieve=extend_schema(
         description="API endpoint to retrieve a specific favorite object"

@@ -1,5 +1,4 @@
 from django.contrib.auth import get_user_model
-from rest_framework import mixins
 from rest_framework import status
 from rest_framework.decorators import action
 from rest_framework.response import Response
@@ -35,7 +34,10 @@ class UserViewSet(GenericViewSet):
         serializer.save()
         return Response(serializer.data, status=status.HTTP_201_CREATED)
 
-    @action(detail=False, methods=("GET",), authentication_classes=(JWTAuthentication,))
+    @action(
+        detail=False, methods=("GET",),
+        authentication_classes=(JWTAuthentication,)
+    )
     def me(self, request):
         """API endpoint to understand deeply who you are"""
         serializer = self.get_serializer(instance=request.user)

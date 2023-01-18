@@ -1,7 +1,6 @@
 from django.contrib import admin
 
 from pokemon.models import PokedexCreature
-from pokemon.models import Pokemon
 
 
 class PokedexCreatureAdmin(admin.ModelAdmin):

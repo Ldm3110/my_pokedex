@@ -18,12 +18,15 @@ class PokemonSerializer(serializers.ModelSerializer):
             "nickname",
             "level",
             "experience",
-            "favorite_object"
+            "favorite_object",
+            "team"
         )
         read_only_fields = ("id", "level", "favorite_object")
 
     def validate(self, attrs):
-        """Add pokemon nickname if no nickname is given and random favorite object"""
+        """
+        Add pokemon nickname if no nickname is given and random favorite object
+        """
         nickname = attrs.get("nickname")
         pokedex_creature = attrs.get("pokedex_creature")
         if not nickname:
