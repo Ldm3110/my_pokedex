@@ -13,6 +13,7 @@ class TestPoketeamActions:
     poketeam_list = "poketeam-list"
     poketeam_detail = "poketeam-detail"
     pokemon_add = "poketeam-add-pokemon"
+    pokemon_remove = "poketeam-remove-pokemon"
 
     def test_listing_my_teams(
         self,
@@ -81,8 +82,7 @@ class TestPoketeamActions:
         client_log,
     ):
         """
-        Create a new poketeam and confirm the team is attached 
-        to the client_log
+        Create a new poketeam Confirm the team is attached to the client_log
         """
 
         payload = {
@@ -127,6 +127,83 @@ class TestPoketeamActions:
         res = client_log.patch(
             reverse(
                 self.pokemon_add,
+                args=[poketeam.id]
+            ),
+            payload
+        )
+
+        assert res.status_code == status.HTTP_200_OK
+
+    def test_add_pokemon_not_of_my_team(
+        self,
+        client_log,
+        user_log,
+        other_user_log,
+        pokemon_factory,
+        poketeam_factory
+    ):
+        """
+        Test that is not possible to add a pokemon of another
+        trainer in my team
+        """
+        # Create a pokemon with a trainer "macha"
+        pokemon = pokemon_factory(
+            trainer=other_user_log
+        )
+
+        # Create a poketeam with a trainer "tai"
+        poketeam = poketeam_factory(
+            trainer=user_log
+        )
+
+        payload = {
+            "pokemon": pokemon.id
+        }
+        expected_res = {
+            "detail": "You do not have permission to perform this action."
+        }
+
+        # Try to add the pokemon of macha into the team of tai
+        res = client_log.patch(
+            reverse(
+                self.pokemon_add,
+                args=[poketeam.id]
+            ),
+            payload
+        )
+
+        assert res.status_code == status.HTTP_403_FORBIDDEN
+        assert res.data == expected_res
+
+    def test_remove_pokemon_from_a_team(
+        self,
+        user_log,
+        client_log,
+        poketeam_factory,
+        pokemon_factory
+    ):
+        """
+        Add a pokemon to a team then try to remove it
+        """
+        # Create the poketeam
+        poketeam = poketeam_factory(
+            trainer=user_log
+        )
+        # Create a pokemon with the same trainer and attached to the poketeam
+        pokemon = pokemon_factory(
+            trainer=user_log,
+            team=poketeam
+        )
+        assert pokemon.team == poketeam
+
+        # Try to remove pokemon from the team
+        payload = {
+            "pokemon": pokemon.id
+        }
+
+        res = client_log.patch(
+            reverse(
+                self.pokemon_remove,
                 args=[poketeam.id]
             ),
             payload
