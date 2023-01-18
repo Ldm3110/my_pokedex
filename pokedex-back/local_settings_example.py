@@ -1,4 +1,5 @@
-SECRET_KEY = "THE_MOST_SECRET_KEY_ISlkjnsdfljnslinvesoimsreljnrtblkjndbknljnergkjldfvjhbeviunerfiergiu4587y2h3r089uwev9jn98hf98jv3kjn"
+SECRET_KEY = "THE_MOST_SECRET_KEY_ISlkjnsdfljnslinvesoimsreljnrtblkjnd"
+"bknljnergkjldfvjhbeviunerfiergiu4587y2h3r089uwev9jn98hf98jv3kjn"
 
 DATABASES = {
     "default": {

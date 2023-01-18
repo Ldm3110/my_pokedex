@@ -177,7 +177,11 @@ class TestPokemonActions:
         assert pokemon.level == 2
         assert pokemon.experience == 190
 
-    def test_give_xp_to_pokemon_invalid_request(self, client_log, pokemon_factory):
+    def test_give_xp_to_pokemon_invalid_request(
+        self,
+        client_log,
+        pokemon_factory
+    ):
         """Authenticated user can give XP to an existing pokermon"""
         pokemon = pokemon_factory(level=1, experience=40)
 
