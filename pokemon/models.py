@@ -46,7 +46,6 @@ class Pokemon(models.Model):
         on_delete=models.CASCADE,
         blank=False,
         null=False,
-        default=FavObject.objects.order_by('?').first().pk
     )
     team = models.ForeignKey(
         Poketeam,

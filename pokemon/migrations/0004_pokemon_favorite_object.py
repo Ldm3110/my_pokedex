@@ -14,6 +14,6 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='pokemon',
             name='favorite_object',
-            field=models.ForeignKey(default=47, on_delete=django.db.models.deletion.CASCADE, to='pokemon.favobject'),
+            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='pokemon.favobject'),
         ),
     ]
