@@ -8,7 +8,8 @@ jobs:
     executor: python/default
     steps:
       - checkout
-      - pre-install-steps: ["poetry lock [--no-update]"]
+      - pre-install-steps: 
+        - "poetry lock [--no-update]"
       - python/install-packages:
           pkg-manager: poetry
       - run:
