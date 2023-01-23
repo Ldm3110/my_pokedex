@@ -17,13 +17,15 @@ uwsgi = "^2.0.18"
 whitenoise = "^6.0.0"
 djangorestframework-simplejwt = "^5.1.0"
 drf-spectacular = "^0.22.0"
-pylint = "^2.15.10"
 
-[tool.poetry.dev-dependencies]
+[tool.poetry.group.dev.dependencies]
 factory-boy = "^3.2.1"
 Faker = "^13.3.0"
 pre-commit = "^2.17.0"
 black = "^22.1.0"
+pylint = "^2.15.10"
+
+[tool.poetry.group.test.dependencies]
 pytest = "^7.0.1"
 pytest-django = "^4.5.2"
 pytest-factoryboy = "^2.1.0"
