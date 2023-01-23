@@ -89,7 +89,7 @@ WSGI_APPLICATION = "pokedex-back.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-
+print(f"\nargv = {sys.argv}\n")
 DATABASES = {
     "default": {
         "ENGINE": os.getenv("DB_ENGINE"),
@@ -102,6 +102,7 @@ DATABASES = {
 }
 # Used a sqlite DB for tests and tests with circleCI
 if 'pytest' in sys.argv[0]:
+    print("\nsqlite\n")
     DATABASES['default']['ENGINE'] = 'django.db.backends.sqlite3'
 
 
