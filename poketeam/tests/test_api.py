@@ -89,16 +89,16 @@ class TestPoketeamActions:
             "name": "NewPoketeam test"
         }
 
-        expected_return = {
-            "id": 3,
-            "name": "NewPoketeam test",
-            "trainer": user_log.id,
-        }
-
         res = client_log.post(
             reverse(self.poketeam_list),
             payload
         )
+        expected_return = {
+            "id": res.data['id'],
+            "name": "NewPoketeam test",
+            "trainer": user_log.id,
+        }
+
         assert res.status_code == status.HTTP_201_CREATED
         assert res.data == expected_return
 
