@@ -101,7 +101,7 @@ DATABASES = {
     }
 }
 # Used a sqlite DB for tests and tests with circleCI
-if 'poetry' in sys.argv[0] and 'pytest' in sys.argv[2]:
+if 'pytest' in sys.argv[0]:
     DATABASES['default']['ENGINE'] = 'django.db.backends.sqlite3'
 
 
