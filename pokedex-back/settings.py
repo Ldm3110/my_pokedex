@@ -102,8 +102,12 @@ DATABASES = {
 }
 # Used a sqlite DB for tests and tests with circleCI
 if 'pytest' in sys.argv[0]:
-    print("\nsqlite\n")
-    DATABASES['default']['ENGINE'] = 'django.db.backends.sqlite3'
+    DATABASES = {
+        "default": {
+            "ENGINE": 'django.db.backends.sqlite3',
+            "NAME": ":memory:",
+        }
+    }
 
 
 # Password validation
