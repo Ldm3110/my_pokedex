@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 from pathlib import Path
 import os
+import sys
 import dotenv
 import django_env_overrides
 
@@ -88,6 +89,7 @@ WSGI_APPLICATION = "pokedex-back.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
+
 DATABASES = {
     "default": {
         "ENGINE": os.getenv("DB_ENGINE"),
@@ -98,6 +100,9 @@ DATABASES = {
         "PORT": os.getenv("DB_PORT"),
     }
 }
+# Used a sqlite DB for tests and tests with circleCI
+if 'pytest' in sys.argv[0] or 'test_coverage' in sys.argv[0]:
+    DATABASES['default']['ENGINE'] = 'django.db.backends.sqlite3'
 
 
 # Password validation
