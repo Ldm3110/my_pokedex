@@ -296,6 +296,17 @@ python-jose = ["python-jose (==3.3.0)"]
 test = ["cryptography", "pytest", "pytest-cov", "pytest-django", "pytest-xdist", "tox"]
 
 [[package]]
+name = "dotenv"
+version = "0.0.5"
+description = "Handle .env files"
+category = "main"
+optional = false
+python-versions = "*"
+files = [
+    {file = "dotenv-0.0.5.tar.gz", hash = "sha256:b58d2ab3f83dbd4f8a362b21158a606bee87317a9444485566b3c8f0af847091"},
+]
+
+[[package]]
 name = "drf-spectacular"
 version = "0.22.1"
 description = "Sane and flexible OpenAPI 3 schema generation for Django REST framework"
@@ -1252,4 +1263,4 @@ testing = ["flake8 (<5)", "func-timeout", "jaraco.functools", "jaraco.itertools"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.8"
-content-hash = "6f90a08b992c95bb63052c9c3d0cfb836af3d6255e35236475f55ff91c51fb8f"
+content-hash = "08a139f532817c129124617c79bb7010571fbf8df0d05a4b390d0ee2465524b6"
